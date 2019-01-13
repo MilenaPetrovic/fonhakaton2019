@@ -1,2 +1,1 @@
-# fonhakaton2019
-Sajt projekta FON Hakaton
+# FON Hakaton 2019

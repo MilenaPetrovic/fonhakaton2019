@@ -1,0 +1,116 @@
+html{
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.box {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+}
+.box.one{
+    background-color: aqua;
+}
+.box.two{
+    background-color:grey;
+}
+.box.three{
+    background-color: red;
+}
+.box.four{
+    background-color: blueviolet;
+}
+.box.five{
+    background-color: green;
+}
+.box.six{
+    background-color: rgb(43, 226, 156);
+}
+.box.seven{
+    background-color: rgb(223, 226, 43);
+}
+.box.eight{
+    background-color: rgb(43, 61, 226);
+}
+.box.nine{
+    background-color: rgb(226, 125, 43);
+}
+.glide__slides{
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+.glide{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*Glavna stanica*/
+
+.col{
+    background-color: aqua;
+    justify-content: left;
+    text-align: center;
+    margin-left: -9.88%;
+    padding-top: 50vh;
+}
+.col2{
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+    margin-right: -10%;
+    background-color: blue;
+    justify-content: right;
+    text-align: center;
+    padding-top: 50vh;
+   
+}
+.footer{
+    background-color: black;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    margin-right: 0%;
+    margin-left: 0%;
+    clear: both;
+}
+.left,
+.right 
+{
+   width: 100px;
+   height: 100px;
+   transition: .5s;
+   float: left;
+   box-shadow: -2px 2px 0 rgb(255, 255, 255, .5);
+   cursor: pointer;
+}
+.left{
+    margin-top: -50px;
+    margin-right: 0%;
+    margin-left: 5%;
+    transform: rotate(45deg);
+}
+.right{
+    margin-top: -50px;
+    margin-right: 5%;
+    margin-left: 0%;
+    transform: rotate(225deg);
+}
+.left:hover,
+.right:hover
+{
+    box-shadow: -2px 2px 0 rgb(255, 255, 255, 1);
+}
+
