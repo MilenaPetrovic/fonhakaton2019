@@ -2,7 +2,6 @@ html{
     overflow: hidden;
     margin: 0;
     height: 100%;
-    font-family: 'Archivo', sans-serif;
 }
 body{
     margin: 0;
@@ -12,7 +11,7 @@ body{
 }
 .box {
     position: relative;
-    /* width: 100vw; */ 
+    /* width: 100vw; */
     height: 100vh;
 }
 .box.one{
@@ -76,10 +75,8 @@ ul{
     margin-right: -23.6%;
     background-color: rgb(51, 90, 195);
     justify-content: right;
+    padding: 50%;
     text-align: center;
-    color: black;
-    font-size: 6rem;
-    font-weight: bolder;
     padding-top: 50vh;
    
 }
@@ -91,9 +88,6 @@ ul{
     margin-right: 0%;
     margin-left: 0%;
     clear: both;
-}
-.h1{
-    text-align: center;
 }
 /*.left,
 .right 

@@ -12,7 +12,7 @@ body{
 }
 .box {
     position: relative;
-    /* width: 100vw; */ 
+    /* width: 100vw; */
     height: 100vh;
 }
 .box.one{
@@ -77,9 +77,6 @@ ul{
     background-color: rgb(51, 90, 195);
     justify-content: right;
     text-align: center;
-    color: black;
-    font-size: 6rem;
-    font-weight: bolder;
     padding-top: 50vh;
    
 }
@@ -91,9 +88,6 @@ ul{
     margin-right: 0%;
     margin-left: 0%;
     clear: both;
-}
-.h1{
-    text-align: center;
 }
 /*.left,
 .right 

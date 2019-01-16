@@ -65,7 +65,7 @@ ul{
     background-color: rgb(114, 51, 222);
     position: relative;
     justify-content: left;
-    text-align: center;
+    
     margin-left: -23.6%;
     padding-top: 50vh;
 }
@@ -77,7 +77,9 @@ ul{
     background-color: rgb(51, 90, 195);
     justify-content: right;
     text-align: center;
-    color: black;
+    margin-left: 4rem;
+    margin-top: 7rem;
+    color: #f45c42;
     font-size: 6rem;
     font-weight: bolder;
     padding-top: 50vh;

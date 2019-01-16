@@ -2,7 +2,6 @@ html{
     overflow: hidden;
     margin: 0;
     height: 100%;
-    font-family: 'Archivo', sans-serif;
 }
 body{
     margin: 0;
@@ -12,7 +11,7 @@ body{
 }
 .box {
     position: relative;
-    /* width: 100vw; */ 
+    /* width: 100vw; */
     height: 100vh;
 }
 .box.one{
@@ -61,39 +60,31 @@ ul{
 /*Glavna stanica*/
 
 .col{
-
-    background-color: rgb(114, 51, 222);
-    position: relative;
+    background-color: aqua;
     justify-content: left;
     text-align: center;
-    margin-left: -23.6%;
+    margin-left: -9.88%;
     padding-top: 50vh;
 }
 .col2{
     height: 100vh;
     width: 50vw;
     position: relative;
-    margin-right: -23.6%;
-    background-color: rgb(51, 90, 195);
+    margin-right: -10%;
+    background-color: blue;
     justify-content: right;
     text-align: center;
-    color: black;
-    font-size: 6rem;
-    font-weight: bolder;
     padding-top: 50vh;
    
 }
 .footer{
-    background-color:rgb(123, 119, 128);
+    background-color: black;
     position: relative;
     height: 100px;
     margin-top: -100px;
     margin-right: 0%;
     margin-left: 0%;
     clear: both;
-}
-.h1{
-    text-align: center;
 }
 /*.left,
 .right 
