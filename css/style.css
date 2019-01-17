@@ -16,7 +16,6 @@ body{
     height: 100vh;
 }
 .box.one{
-    background-color: aqua;
 }
 .box.two{
     background-color:grey;
@@ -25,13 +24,12 @@ body{
     background-color: red;
 }
 .box.four{
-    background-color: blueviolet;
 }
 .box.five{
     background-color: green;
 }
 .box.six{
-    background-color: rgb(43, 226, 156);
+
 }
 .box.seven{
     background-color: rgb(223, 226, 43);
@@ -40,7 +38,7 @@ body{
     background-color: rgb(43, 61, 226);
 }
 .box.nine{
-    background-color: rgb(226, 125, 43);
+    
 }
 .glide__slides{
     list-style-type: none;

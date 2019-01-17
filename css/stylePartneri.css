@@ -14,30 +14,41 @@ body{
 
 .naslov{
     padding: 0;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
     color: #fff;
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: bolder;
     text-align: center;
     text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
-img{
-    width: 100px;
-    height: 100px;
+hr.style14 { 
+    border: 0;
+    height: 1px;
+    width: 30%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
-.testimonials{
-    margin: 70px auto 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
-    grid-gap: 20px;
+img{
+    width: 100%;
+    height: 100%;
 }
+
+/*Testimonials*/
+
+.testimonials{
+    margin: 6em 7em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 3rem;
+}
+
+/*Kartice*/
 
 .testimonials .card{
     position: relative;
-    width: 350px;
-    margin: 0 auto;
+    width: 200px;
+    margin: 1.8em auto;
     background: #333;
     padding: 20px;
     box-sizing: border-box;
@@ -53,7 +64,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#00ccff,#e066ff);
+    background: linear-gradient(#03a9f4,#e91ee3);
     z-index: 1;
     transition: 0.5s;
 }
@@ -67,15 +78,9 @@ img{
     z-index: 2;
 }
 
-.testimonials .card .content p{
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
-}
-
 .testimonials .card .content .image{
-    width: 100px;
-    height: 100px;
+    width: 7rem;
+    height: 7rem;
     margin: 0 auto;
     border-radius: 50%;
     overflow: hidden;
@@ -90,13 +95,126 @@ img{
 
 .testimonials .card .content .details h2 span{
     color: #03a9f4;
-    font-size: 14px;
+    font-size: 13px;
     transition: 0.5s;
 }
 
 .testimonials .card:hover .content .details h2 span{
     color: #fff;
 }
+
+/*Strelice*/
+/*NIJE RESPONZIVNO*/ /*(Ideja samo)*/
+
+/*Desna*/
+.arrows ul{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/*Leva*/
+.arrow ul{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.arrows ul li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #262626;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.arrow ul li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: #262626;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.arrows ul li:hover, .arrow ul li:hover{
+    background: #0070ff;
+}
+
+.arrows ul li span, .arrow ul li span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 4px solid #fff;
+    transition: .5s;
+}
+
+.arrows ul li.next span{
+    top: 50%;
+    right: 41%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-left: none;
+    border-top: none;
+}
+
+.arrows ul li.next:hover span{
+    right: 32%;
+}
+
+.arrows ul li.next span:before{
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 4px;
+    background: #fff;
+    transform-origin: right;
+    transform: rotate(45deg) translate(-2px,25px) scaleX(0);
+    transition: .5s;
+}
+
+.arrows ul li.next:hover span:before{
+    transform: rotate(45deg) translate(-2px,25px) scaleX(1);
+}
+
+.arrow ul li.prev span{
+    top: 50%;
+    left: 41%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-right: none;
+    border-bottom: none;
+}
+
+.arrow ul li.prev:hover span{
+    left: 32%;
+}
+
+.arrow ul li.prev span:before{
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 4px;
+    background: #fff;
+    transform-origin: left;
+    transform: rotate(45deg) translate(-2px,-1px) scaleX(0);
+    transition: .5s;
+}
+
+.arrow ul li.prev:hover span:before{
+    transform: rotate(45deg) translate(-2px,-1px) scaleX(1);
+}
+
+/*Media Queries*/
 
 @media(max-width:1100px){
     html{

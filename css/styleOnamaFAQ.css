@@ -13,18 +13,20 @@ html{
 }
 
 #about h1{
-    margin-left: 4rem;
     margin-top: 7rem;
     color: #f45c42;
     font-size: 6rem;
+    text-align: center;
     font-weight: bolder;
 }
 
 #about p{
-    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
     margin-right: 4rem;
     color: #fff;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #faq{
@@ -35,15 +37,15 @@ html{
 }
 
 #faq h1{
-    margin-left: 4rem;
     margin-top: 7rem;
     color: #333;
     font-size: 6rem;
     font-weight: bolder;
+    text-align: center;
 }
 
 #faq .collapsible{
-    margin: 4rem 5rem 0 5rem;
+    margin: 2rem 5rem 0 5rem;
 }
 
 #faq .collapsible-body{
