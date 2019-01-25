@@ -9,12 +9,12 @@ html{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-color: #333;
+    background-color: #0C346B;
 }
 
 #about h1{
     margin-top: 7rem;
-    color: #f45c42;
+    color: #4F80FF;
     font-size: 6rem;
     text-align: center;
     font-weight: bolder;
@@ -24,7 +24,7 @@ html{
     margin-top: 2rem;
     margin-left: 3rem;
     margin-right: 4rem;
-    color: #fff;
+    color: #02DDC8;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -33,22 +33,24 @@ html{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-color: #f45c42;
+    background-color: #4F80FF;
 }
 
 #faq h1{
     margin-top: 7rem;
-    color: #333;
+    color: #0C346B;
     font-size: 6rem;
     font-weight: bolder;
     text-align: center;
 }
 
 #faq .collapsible{
+    color: #0C346B;
     margin: 2rem 5rem 0 5rem;
 }
 
 #faq .collapsible-body{
+    color: #0C346B;
     background-color: #fff;
 }
 
