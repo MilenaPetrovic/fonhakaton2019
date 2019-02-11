@@ -9,7 +9,8 @@ body{
     padding: 0;
     width: 100%;
     height: 100%;
-    background: #0C346B;
+    background: url(../img/grid-1.png);
+    background-size: cover;
 }
 
 .naslov{

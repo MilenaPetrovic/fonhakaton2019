@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo');
 
 html{
-    overflow-y: hidden;
+    overflow: hidden !important;
     font-family: 'Archivo', sans-serif;
+}
+
+.box.six.vol2{
+    display: none;
+}
+
+.box.four.vol2{
+    display: none;
 }
 
 #about{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-color: #0C346B;
+    background: url(../img/grid-1.png);
+    background-size: cover;
+    width: 100%;
 }
 
 #about h1{
@@ -33,7 +43,9 @@ html{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-color: #4F80FF;
+    background: url(../img/grid-2.png);
+    background-size: cover;
+    width: 100%;
 }
 
 #faq h1{
@@ -50,26 +62,26 @@ html{
 }
 
 #faq .collapsible-body{
-    color: #0C346B;
-    background-color: #fff;
+    color: #fff;
+    background: url(../img/grid-2.png);
+    background-size: cover;
 }
 
-@media(max-width: 700px){
-    html{
-        overflow: visible;
+@media(max-width: 800px){
+
+    .box.six #faq{
+        display: none;
     }
+
+    .box.four #faq{
+        display: none;
+    }
+
     #about{
-        width: 100%;
-        height: 100vh;
+        width: 100% !important;
     }
-    #about h1{
-        font-size: 5rem;
-    }
-    #about p{
-        font-size: 1.3rem;
-    }
-    #faq{
-        width: 100%;
-        height: 100vh;
+
+    .box.six.vol2{
+        display: block;
     }
 }
