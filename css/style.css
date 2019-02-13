@@ -1,64 +1,73 @@
-html{
+html {
     overflow: hidden;
     margin: 0;
     height: 100%;
     font-family: 'Archivo', sans-serif;
 }
-body{
+
+body {
     margin: 0;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
+
 .box {
     position: relative;
-    /* width: 100vw; */ 
+    /* width: 100vw; */
     height: 100vh;
 }
-.box.one{
+
+.box.one {}
+
+.box.two {
+    background-color: grey;
 }
-.box.two{
-    background-color:grey;
-}
-.box.three{
+
+.box.three {
     background-color: red;
 }
-.box.four{
-}
-.box.five{
+
+.box.four {}
+
+.box.five {
     background-color: green;
 }
-.box.six{
 
-}
-.box.seven{
+.box.six {}
+
+.box.seven {
     background-color: rgb(223, 226, 43);
 }
-.box.eight{
+
+.box.eight {
     background-color: rgb(43, 61, 226);
 }
-.box.nine{
-    
-}
-.glide__slides{
+
+.box.nine {}
+
+.glide__slides {
     list-style-type: none;
     position: fixed;
     top: 0;
-    left:0;
+    left: 0;
 }
-.glide{
+
+.glide {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
+
 /*Glavna stanica*/
 
-.col{
+.col {
 
     background-color: rgb(114, 51, 222);
     position: relative;
@@ -67,7 +76,8 @@ ul{
     margin-left: -23.6%;
     padding-top: 50vh;
 }
-.col2{
+
+.col2 {
     height: 100vh;
     width: 50vw;
     position: relative;
@@ -79,10 +89,11 @@ ul{
     font-size: 6rem;
     font-weight: bolder;
     padding-top: 50vh;
-   
+
 }
-.footer{
-    background-color:rgb(123, 119, 128);
+
+.footer {
+    background-color: rgb(123, 119, 128);
     position: relative;
     height: 100px;
     margin-top: -100px;
@@ -90,9 +101,21 @@ ul{
     margin-left: 0%;
     clear: both;
 }
-.h1{
+
+.h1 {
     text-align: center;
 }
+
+.row-home {
+    display: flex;
+    justify-content: center;
+}
+
+.polovina {
+    width: 50vw;
+}
+
+
 /*.left,
 .right 
 {
