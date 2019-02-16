@@ -58,3 +58,21 @@ html{
     background: url(../img/grid-2.png);
     background-size: cover;
 }
+
+@media(max-width:600px){
+    #about h1{
+        font-size: 5rem;
+    }
+    #faq h1{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width:400px){
+    #about h1{
+        font-size: 3rem;
+    }
+    #faq h1{
+        font-size: 2rem;
+    }
+}
