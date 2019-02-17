@@ -1,5 +1,5 @@
 var glide = new Glide('.glide', {
-    startAt: 4,
+    startAt: 5,
     perView: 1,
     focusAt: 'center',
     dragThreshold: 30,
