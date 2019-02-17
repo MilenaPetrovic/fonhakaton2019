@@ -6,7 +6,10 @@ html {
 }
 
 body {
-    background: url(../img/grid-1.png);
+    background: radial-gradient(    
+        #0C297A,
+        #1C3144
+    );
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
