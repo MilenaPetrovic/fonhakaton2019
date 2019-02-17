@@ -57,15 +57,15 @@
     #blur3 img {
         width: 180px;
         border-radius: 6px;
-        -webkit-filter: grayscale(0) blur(0);
-        filter: grayscale(0) blur(0);
+        -webkit-filter: contrast(1) blur(0);
+        filter: contrast(1) blur(0);
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
       
     #blur3:hover img {
-      -webkit-filter: grayscale(100%) blur(3px);
-       filter: grayscale(100%) blur(3px);
+      -webkit-filter: contrast(60%) blur(2px);
+       filter: contrast(60%) blur(2px);
     }
       
     #blur3 :not(img) {
@@ -94,6 +94,25 @@
     }
 
 
+    .tim {
+        padding: 0;
+        margin: 50px auto 0 auto;
+        color: #02DDC8;
+        font-size: 2rem;
+        font-weight: bolder;
+        text-align: center;
+        text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    }
+    
+    .crta {
+        border: 0;
+        height: 1px;
+        width: 30%;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(19, 233, 222), rgba(255, 255, 255, 0));
+    }
+    
+
+
     @media only screen and (max-width: 992px) {
         
 
@@ -104,6 +123,8 @@
 
         .titula{
             font-size: 0.7rem;
+            margin-bottom: 5px;
+
         }
 
         .linkedin{
@@ -125,6 +146,42 @@
         .gore{
             margin-top: 0px;
         }
+
+        .tim {
+            padding: 0;
+            margin: 8px auto 0 auto;
+            color: #02DDC8;
+            font-size: 2rem;
+            font-weight: bolder;
+            text-align: center;
+            text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+        }
+    
+        .tim h2{
+            padding-top: 0px;
+            margin-top: 0px;
+            padding-bottom: 5px;
+            margin-bottom: 0px;
+        }
+        
+        .crta {
+            border: 0;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            height: 1px;
+            width: 30%;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(19, 233, 222), rgba(255, 255, 255, 0));
+        }
+
+        #blur3 img {
+            width: 130px;
+            border-radius: 6px;
+            -webkit-filter: contrast(1) blur(0);
+            filter: contrast(1) blur(0);
+            -webkit-transition: .3s ease-in-out;
+            transition: .3s ease-in-out;
+        }
+
     }
 
 }

@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+#floatButton{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
 * {
     box-sizing: border-box;
 }
