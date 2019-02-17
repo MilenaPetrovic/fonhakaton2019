@@ -13,6 +13,9 @@ body {
     box-sizing: border-box;
 }
 
+.jumbo-content{
+}
+
 .box {
     position: relative;
     /* width: 100vw; */
