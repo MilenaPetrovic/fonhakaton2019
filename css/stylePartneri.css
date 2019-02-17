@@ -2,14 +2,11 @@
 
 html {
     overflow: hidden !important;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 body {
-    background: radial-gradient(    
-        #0C297A,
-        #1C3144
-    );
+    background: url(../img/grid-1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +19,7 @@ body {
 .naslov {
     padding: 0;
     margin: 50px auto 0 auto;
-    color: #02DDC8;
+    color: #4F80FF;
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
@@ -33,7 +30,7 @@ hr.style14 {
     border: 0;
     height: 1px;
     width: 30%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(19, 233, 222), rgba(255, 255, 255, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(17, 129, 221), rgba(255, 255, 255, 0));
 }
 
 .swiper-container {
