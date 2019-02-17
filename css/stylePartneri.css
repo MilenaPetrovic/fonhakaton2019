@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-size: 14px;
-    color:#fff;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -38,6 +38,7 @@ hr.style14 {
     padding-top: 200px;
     padding-bottom: 50px;
 }
+
 .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -46,22 +47,22 @@ hr.style14 {
     background: url(../img/grid-2.png) no-repeat;
 }
 
-.swiper-slide .imgBx{
+.swiper-slide .imgBx {
     height: 300px;
     width: 100%;
     overflow: hidden;
 }
 
-.swiper-slide .imgBx img{
+.swiper-slide .imgBx img {
     width: 100%;
 }
 
-.swiper-slide .details{
+.swiper-slide .details {
     box-sizing: border-box;
     padding: 20px;
 }
 
-.swiper-slide .details h3{
+.swiper-slide .details h3 {
     margin: 0;
     padding: 0;
     font-size: 20px;
@@ -69,7 +70,7 @@ hr.style14 {
     line-height: 20px;
 }
 
-.swiper-slide .details h3 span{
+.swiper-slide .details h3 span {
     font-size: 16px;
     color: #02DDC8;
 }
