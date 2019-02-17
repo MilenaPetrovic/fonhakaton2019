@@ -2,161 +2,130 @@
 
 #umi
 
-    #naslov{
-        text-align:  center;
-        color: rgb(226, 224, 224);
-        /* margin-left: 50px; */
-        font-size: 4.0rem;
-        margin-top: 15px;
+    .col{
+        background-color: transparent;
+    }
+    #cont{
+        padding-top: 50px;
     }
 
-    .glow {
-        font-size: 80px;
-        color: #fff;
-        text-align: center;
-        -webkit-animation: glow 1s ease-in-out infinite alternate;
-        -moz-animation: glow 1s ease-in-out infinite alternate;
-        animation: glow 1s ease-in-out infinite alternate;
-    }
-
-
-    #avatar {
-        padding-top: 5px;
-        margin-bottom: 1.5rem;
-        text-align: center;
-        position: relative;
-    }
-
-    #slika{
-        display: inline-block;
-        border-radius: 10%;
-        padding-bottom: 0px;
-        padding-top: 0px;
-        /* height: 240px; */
-    }
-
-    #avatar img {
-
-        margin-bottom: 0px;
-        width: 240px;
-        height: 240px;
-        border: solid white 1px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        border-radius: 10%;
-        /* box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.2), 0 10px 30px 0 rgba(255, 255, 255, 0.19); */
-
-    }
-    .modal-trigger{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        box-shadow: 0 6px 12px 0 rgba(255, 255, 255, 0.2), 0 10px 30px 0 rgba(255, 255, 255, 0.19);
-
-    }
-
-    .org-name {
-        color: rgb(207, 206, 206);
-        font-size: 1.8rem;
-        margin-top: 0.3rem;
-        margin-bottom: 0.1rem;
+    .linkedin {
+        margin-top: 5rem;
         z-index: 1;
-
     }
+      
+    .email-org {
+        margin-top: 6.5rem;
+        z-index: 1;
+    }
+      
+    .org-name {
+        font-size: 1.3rem;
+        margin-top: 0.3rem;
+        z-index: 1;
+    }
+
+    .ime{
+          margin-top: 0px;
+          margin-bottom: 5px;
+    }
+
+    .titula{
+          margin-top: 0px;
+          margin-bottom: 0px;
+          font-size: 1.5rem;
+    }
+      
     .org-title {
-        color: rgb(207, 206, 206);
         font-size: 1rem;
-        margin-top: 0.1rem;
+        margin-top: 2.3rem;
     }
-    .icons a{
-        color: rgb(207, 206, 206);
-        font-size: 1rem;
-    }
-
+      
     #razmak{
         margin: 7px;
     }
 
-    .modal .icons a{
-        color: black;
+    .card{
+        padding: 5px;
     }
 
-    /* Shine
-    .hover14 .transparent{
+    #blur3 {
+        text-align: center;
         position: relative;
     }
-    .hover14 .transparent::before {
+      
+    #blur3 img {
+        width: 180px;
+        border-radius: 6px;
+        -webkit-filter: grayscale(0) blur(0);
+        filter: grayscale(0) blur(0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+      
+    #blur3:hover img {
+      -webkit-filter: grayscale(100%) blur(3px);
+       filter: grayscale(100%) blur(3px);
+    }
+      
+    #blur3 :not(img) {
         position: absolute;
-        top: 0;
-        left: -75%;
-        z-index: 2;
-        display: block;
-        content: '';
-        width: 50%;
-        height: 100%;
-        background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-        -webkit-transform: skewX(-25deg);
-        transform: skewX(-25deg);
+        top: 20%;
+        right: 12%;
+        z-index: 1;
+        color: #fff;
+        width: 75%;
+        opacity: 0;
+        transition: .3s;
     }
-    .hover14 .transparent:hover::before {
-        -webkit-animation: shine .75s;
-        animation: shine .75s;
+      
+    #blur3:hover :not(img) {
+      opacity: 1;
     }
-    @-webkit-keyframes shine {
-        100% {
-            left: 125%;
-        }
-    }
-    @keyframes shine {
-        100% {
-            left: 125%;
-        }
-    } */
 
+    #test{
+        background-image: url(img/grid-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-    @-webkit-keyframes glow {
-        from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #260a58, 0 0 40px #260a58, 0 0 50px #260a58, 0 0 60px #260a58, 0 0 70px #260a58;
-        }
-        to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #260a58, 0 0 40px #260a58, 0 0 50px #260a58, 0 0 60px #260a58, 0 0 70px #260a58, 0 0 80px #260a58;
-        }
     }
+
+    .gore{
+        margin-top: 15px;
+    }
+
 
     @media only screen and (max-width: 992px) {
         
-        #naslov{
-            font-size: 3rem;
-        }
-        
-        #sakri {
-            display: none;
+
+        .ime{
+            font-size: 1.2rem;
+            margin-bottom: 0px;
         }
 
-        .org-name{
-            font-size: 1.4rem;
+        .titula{
+            font-size: 0.7rem;
         }
 
-        .org-title{
-            font-size: 0.8rem;
+        .linkedin{
+            color: rgb(88, 86, 86);
+            
         }
 
-        #avatar{
-            margin-bottom: 5px;
+        .mail{
+            color: rgb(88, 86, 86);
         }
 
-        #avatar img {
-            width: 120px;
-            height: 120px;
+        #blur3 img{
+            margin-bottom: 2px;
         }
 
-
-    }
-
-    @media only screen and (min-width: 600px) {
-        #avatar #slika {
-            pointer-events: none;
+        #cont{
+            padding-top: 0px;
+        }
+        .gore{
+            margin-top: 0px;
         }
     }
+
 }
