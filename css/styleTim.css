@@ -6,11 +6,11 @@
         background-color: transparent;
     }
     #cont{
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     .linkedin {
-        margin-top: 5rem;
+        margin-top: 3rem;
         z-index: 1;
     }
       
@@ -28,12 +28,13 @@
     .ime{
           margin-top: 0px;
           margin-bottom: 5px;
+          font-size: 1.8rem;
     }
 
     .titula{
           margin-top: 0px;
           margin-bottom: 0px;
-          font-size: 1.5rem;
+          font-size: 1.1rem;
     }
       
     .org-title {
@@ -55,17 +56,18 @@
     }
       
     #blur3 img {
-        width: 180px;
+        width: 150px; /* OVDE ME PROMENI !!!!!!!!!!! */
         border-radius: 6px;
         -webkit-filter: contrast(1) blur(0);
         filter: contrast(1) blur(0);
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
+        pointer-events: none;
     }
       
     #blur3:hover img {
-      -webkit-filter: contrast(60%) blur(2px);
-       filter: contrast(60%) blur(2px);
+      /* -webkit-filter: contrast(60%) blur(2px);
+       filter: contrast(60%) blur(2px); Ne radim na kompu*/
     }
       
     #blur3 :not(img) {
@@ -96,12 +98,16 @@
 
     .tim {
         padding: 0;
-        margin: 50px auto 0 auto;
+        margin: 20px auto 0 auto;
         color: #02DDC8;
         font-size: 2rem;
         font-weight: bolder;
         text-align: center;
         text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    }
+
+    .tim h2{
+        margin-bottom: 5px;
     }
     
     .crta {
@@ -174,14 +180,19 @@
         }
 
         #blur3 img {
-            width: 130px;
+            width: 110px;
             border-radius: 6px;
             -webkit-filter: contrast(1) blur(0);
             filter: contrast(1) blur(0);
             -webkit-transition: .3s ease-in-out;
             transition: .3s ease-in-out;
+            pointer-events: auto;
         }
 
+        #blur3:hover img {
+            -webkit-filter: contrast(60%) blur(2px);
+             filter: contrast(60%) blur(2px);
+        }
     }
 
 }
