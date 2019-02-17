@@ -1,19 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo');
 
 html{
     overflow: hidden !important;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 #about{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background:
-    radial-gradient(       
-        #0C297A,
-        #1C3144
-    );
+    background: url(../img/grid-1.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -24,14 +19,13 @@ html{
     font-size: 8rem;
     text-align: center;
     font-weight: bolder;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
 #about p{
-    margin-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 4rem;
+    margin : 4rem 4rem;
     color: #02DDC8;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -39,14 +33,23 @@ html{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background: url(../img/grid-2.png);
+    background: url(../img/grid-1.jpg);
     background-size: cover;
     width: 100%;
 }
 
+#mailto{
+    color: #02DDC8;
+    font-size: 1rem;
+}
+
+#mailto a{
+    color: #4F80FF;
+}
+
 #faq h1{
     margin-top: 7rem;
-    color: #0C346B;
+    color: #4F80FF;
     font-size: 6rem;
     font-weight: bolder;
     text-align: center;
@@ -54,16 +57,17 @@ html{
 
 #faq .collapsible{
     color: #0C346B;
-    margin: 2rem 5rem 0 5rem;
+    margin: 2rem 5rem;
 }
 
 #faq .collapsible-body{
     color: #fff;
-    background: url(../img/grid-2.png);
+    font-size: 1rem;
+    background: url(../img/Pozadina-12.png);
     background-size: cover;
 }
 
-@media(max-width:600px){
+@media(max-width:935px){
     #about h1{
         font-size: 5rem;
     }
@@ -71,11 +75,24 @@ html{
         font-size: 4rem;
     }
     #about p{
-        font-size: 1rem;
+        font-size: 1.5rem !important;
     }
 }
 
-@media(max-width:400px){
+@media(max-width:500px){
+    #about h1{
+        font-size: 3.5rem;
+    }
+    #faq h1{
+        font-size: 2.5rem;
+    }
+
+    #about p{
+        font-size: 1rem !important;
+    }
+}
+
+@media(max-width:300px){
     #about h1{
         font-size: 3rem;
     }
@@ -84,6 +101,6 @@ html{
     }
 
     #about p{
-        font-size: .6rem;
+        font-size: .8rem !important;
     }
 }
