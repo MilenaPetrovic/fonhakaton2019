@@ -84,10 +84,9 @@
     }
 
     #test{
-        background-image: url(img/grid-1.png);
+        background-image: url(img/pozadina-12.png);
         background-size: cover;
         background-repeat: no-repeat;
-
     }
 
     .gore{
