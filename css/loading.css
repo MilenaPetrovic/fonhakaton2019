@@ -1,32 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand|Raleway|Rubik');
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;;
     overflow: hidden;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
-}
-
 body{
-    background-image: radial-gradient(
-        #0C297A,
-        #1C3144           
-    );
+    background: url(../img/pozadina-loading.png);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
-.loading-title{
-    position: relative;
-    text-align: center;
-    margin-top: 90px;
-    font-size: 2rem;
-    color: #4F80FF;
+.loading-title img{
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 180px;
+    width: 20%;
 }
 
 .loading-subtitle{
