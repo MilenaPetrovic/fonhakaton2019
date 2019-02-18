@@ -10,12 +10,13 @@ body{
     width: 100%;
 }
 
-.loading-title{
-    position: relative;
-    text-align: center;
-    margin-top: 90px;
-    font-size: 2rem;
-    color: #4F80FF;
+.loading-title img{
+    display: block;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 180px;
+    width: 20%;
 }
 
 .loading-subtitle{
