@@ -8,11 +8,7 @@ html{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-image: radial-gradient(
-            #0C297A,
-            #1C3144           
-        );
-    background-image: url(img/pozadina-17.png);
+    background-image: url(/img/pozadina-18.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -60,11 +56,7 @@ hr {
     padding: 0;
     margin: 0;
     height: 100vh;
-    background-image: radial-gradient(
-            #0C297A,
-            #1C3144           
-        );
-    /*    background-image: url(img/pozadina-12.png); */
+    background-image: url(/img/pozadina-18.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -94,11 +86,7 @@ hr {
 #faq .collapsible-body{
     color: #fff;
     font-size: 1rem;
-    background-image: radial-gradient(
-            #0C297A,
-            #1C3144           
-        );
-    /*    background-image: url(img/pozadina-12.png); */
+    background-image: url(/img/pozadina-18.jpg);
     background-size: cover;
 }
 
