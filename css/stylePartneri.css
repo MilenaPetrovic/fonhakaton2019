@@ -6,7 +6,11 @@ html {
 }
 
 body {
-    background: url(../img/grid-1.jpg);
+    background-image: radial-gradient(
+            #0C297A,
+            #1C3144           
+        );
+    /*    background-image: url(img/pozadina-12.png); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +48,12 @@ hr.style14 {
     background-size: cover;
     width: 300px;
     height: 380px;
-    background: url(../img/grid-2.png) no-repeat;
+    background-image: radial-gradient(
+            #0C297A,
+            #1C3144           
+        );
+    /*   
+    background: url(../img/grid-2.png) no-repeat;*/
 }
 
 .swiper-slide .imgBx {

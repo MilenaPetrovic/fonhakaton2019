@@ -86,7 +86,11 @@
     }
 
     #test{
-        background-image: url(img/pozadina-12.png);
+        background-image: radial-gradient(
+            #0C297A,
+            #1C3144           
+        );
+    /*    background-image: url(img/pozadina-12.png); */
         background-size: cover;
         background-repeat: no-repeat;
     }
