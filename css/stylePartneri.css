@@ -44,9 +44,10 @@ html {
 .swiper-slide {
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 250px;
     height: 330px;
-    background: #333;
+    background: url(../img/MatijaFAQ-17.jpg);
 }
 
 .swiper-slide .imgBx {
@@ -72,4 +73,36 @@ html {
     font-weight: bolder;
     text-align: center;
     line-height: 20px;
+}
+
+@media(max-width:400px){
+    .naslov h2{
+        font-size: 3rem;
+    }
+
+    .naslov .slash-2{
+        height: 5px;
+        width: 50%;
+    }
+
+    .swiper-container{
+        width: 70%;
+    }
+
+    .swiper-slide{
+        width: 150px;
+        height: 230px; 
+    }
+
+    .swiper-slide .details {
+        box-sizing: border-box;
+        padding-top: 0px;
+    }
+
+    .swiper-slide .details h3 {
+        font-size: .8rem;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 10px;
+    }
 }
