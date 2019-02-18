@@ -59,6 +59,7 @@ body {
 
 
  /*Strelice*/
+ 
  .arrow {
 	position: absolute;
 	top: 50%;
@@ -107,7 +108,7 @@ body {
     .arrow:hover {
         border-top:2vmin solid #02DDC8;
         border-right:2vmin solid #02DDC8;
-        box-shadow: 1vmin -0.5vmin 0 white;
+        box-shadow: 1vmin -1vmin 0 #02ddc767 ;
         cursor: pointer;
         
     }  
@@ -205,8 +206,13 @@ ul {
 .slogan{
     color: #ffffff;
 }
+
 .pitanje{
     color: #ffffff;
+}
+
+.kocka{
+    display: none;
 }
 
 /*.left,
@@ -246,6 +252,25 @@ ul {
         font-size: 250%;
     }
     .pitanje{
-        font-size: 180%;
+        font-size: 150%;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo{
+        width: 50%;
+    }
+    .kocka{
+        display: inline;
+        width: 40%;
+        padding-bottom: 8%;
+    }
+    .sakrij{
+        display: none;
+    }
+    .tilt{
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        border-bottom: 0%;
     }
 }
