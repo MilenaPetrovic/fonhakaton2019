@@ -6,6 +6,10 @@ html {
 }
 
 body {
+    background-image: radial-gradient(
+            #0C297A,
+            #1C3144           
+        );
     margin: 0;
     text-align:center;
 }
@@ -131,38 +135,44 @@ body {
 }
 
 .box.one {
-    
+    background-image: url(/img/pozadina-17.png);
 }
 
-
 .box.three {
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.four {
-
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.five {
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.six {
-    
+   background-image: url(/img/pozadina-17.png);
 }
 
 .box.seven {
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.eight {
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.nine {
+    background-image: url(/img/pozadina-17.png);
 }
 
 .box.ten {
+    background-image: url(/img/pozadina-17.png);
 
 }
 
 .box.eleven{
+    background-image: url(/img/pozadina-17.png);
 
 }
 
