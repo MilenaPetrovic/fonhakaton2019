@@ -74,6 +74,7 @@ hr {
     font-size: 5rem;
     font-weight: bolder;
     text-align: center;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
 #faq .collapsible{

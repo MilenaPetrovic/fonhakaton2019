@@ -1,57 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo');
-
 html {
     overflow: hidden !important;
-    font-family: 'Alegreya Sans', sans-serif;
 }
 
-/*
-body {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-size: 14px;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-} 
-*/
-
-.naslov {
-    padding: 0;
-    margin: 50px auto 0 auto;
+.naslov h2{
+    padding-top: 5rem;
+    margin: 0 auto 0 auto;
     color: #4F80FF;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: bolder;
     text-align: center;
     text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
-hr.style14 {
+.naslov hr {
     border: 0;
-    height: 1px;
-    width: 30%;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(17, 129, 221), rgba(255, 255, 255, 0));
+    margin: 1.35em auto;
+    max-width: 100%;
+    background-position: 50%;
+    box-sizing: border-box;
+    color: #4F80FF;
 }
+
+.naslov .slash-2 {
+    height: 10px;
+    background-image: linear-gradient(-45deg,
+      transparent,
+      transparent 25%,
+      currentColor 25%,
+      currentColor 50%,
+      transparent 50%,
+      transparent 75%,
+      currentColor 75%);
+    background-size: 10px 10px;
+    width: 30%;
+  }
 
 .swiper-container {
     width: 100%;
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 380px;
-    background: #4F80FF
-    /*   
-    background: url(../img/grid-2.png) no-repeat;*/
+    width: 250px;
+    height: 330px;
+    background: #333;
 }
 
 .swiper-slide .imgBx {
-    height: 300px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
 }
@@ -62,18 +61,15 @@ hr.style14 {
 
 .swiper-slide .details {
     box-sizing: border-box;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 .swiper-slide .details h3 {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    color: #4F80FF;
+    font-size: 1rem;
+    font-weight: bolder;
     text-align: center;
     line-height: 20px;
-}
-
-.swiper-slide .details h3 span {
-    font-size: 16px;
-    color: #02DDC8;
 }
