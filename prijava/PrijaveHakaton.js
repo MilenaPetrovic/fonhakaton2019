@@ -22,16 +22,4 @@ $(function () {
 		});
 	}
 
-	//GOOGLE SHEET
-
-	const scriptURL = 'https://script.google.com/macros/s/AKfycbxgH_Xq8de0HcJXcIGQgc8PqAEDzfhfFnNWLrZrLLU_c_zkAV9A/exec'
-	const form = document.forms['submit-to-google-sheet']
-
-	form.addEventListener("submit", e => {
-		e.preventDefault()
-		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-			.then(response => console.log('Success!', response))
-			.catch(error => console.error('Error!', error.message))
-	})
-
 });

@@ -16,6 +16,13 @@ body{
     );
 }
 
+textarea {
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 h1{
     margin-bottom: 20px;
     margin-top: 50px;
