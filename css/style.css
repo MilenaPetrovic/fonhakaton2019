@@ -14,6 +14,8 @@ body {
     text-align:center;
 }
 
+
+
 /*Za dugmice za pocetnu*/
   button{
     background:#1C3144;
@@ -22,7 +24,7 @@ body {
     border-color: #02DDC8;
     position: relative;
     height:70px;
-    width:250px;
+    width:350px;
     padding:0 2em;
     cursor:pointer;
     transition:800ms ease all;
@@ -127,7 +129,9 @@ body {
 .jumbo-content{
    
 }
-
+.text-center.pitanje {
+    visibility: hidden;
+}
 .box {
     background-image: url(/img/pozadina.png);
     position: relative;
@@ -199,8 +203,13 @@ ul {
 }
 
 .tilt {
-    padding-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    height: 600px;
     /*z-index:-1;*/
+}
+.fon.hakaton.logo {
+    size:70%;
 }
 
 .slogan{
@@ -212,6 +221,11 @@ ul {
 }
 
 .kocka{
+    height: 360px;
+    width:360px;
+    padding-top: 0%;
+}
+.sakrij{
     display: none;
 }
 
@@ -243,7 +257,10 @@ ul {
     box-shadow: -2px 2px 0 rgb(255, 255, 255, 1);
 }
 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+    body {
+        overflow-block:none;
+    }
     .tilt{
         max-width: 100%;
         max-height: 50%;
@@ -253,6 +270,10 @@ ul {
     }
     .pitanje{
         font-size: 150%;
+        
+    }
+    .text-center.pitanje{
+        visibility: hidden;
     }
     .logo {
         text-align: center;
@@ -262,8 +283,9 @@ ul {
     }
     .kocka{
         display: inline;
-        width: 40%;
-        padding-bottom: 8%;
+        height: 250px;
+        width:220px;
+        padding-bottom: 10%;
     }
     .sakrij{
         display: none;
@@ -272,5 +294,10 @@ ul {
         padding-bottom: 0%;
         margin-bottom: 0%;
         border-bottom: 0%;
+        height: 430px;
     }
+    .col.s12.l6{
+        padding-bottom: 2%;
+    }
+    
 }
