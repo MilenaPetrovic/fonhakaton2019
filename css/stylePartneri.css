@@ -75,9 +75,10 @@ html {
     line-height: 20px;
 }
 
-@media(max-width:500px){
+@media(max-width:400px){
     .naslov h2{
-        font-size: 1rem;
+        padding-top: 9rem;
+        font-size: 3rem;
     }
 
     .naslov .slash-2{
@@ -96,13 +97,11 @@ html {
 
     .swiper-slide .details {
         box-sizing: border-box;
-        padding-top: 0px;
     }
 
     .swiper-slide .details h3 {
-        font-size: .8rem;
+        font-size: .9rem;
         font-weight: bolder;
         text-align: center;
-        line-height: 10px;
     }
 }
