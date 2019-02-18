@@ -35,7 +35,7 @@ hr {
   }
 
 #about h1{
-    margin-top: 6rem;
+    margin-top: 4rem;
     color: #4F80FF;
     font-size: 5rem;
     text-align: center;
@@ -44,10 +44,19 @@ hr {
 }
 
 #about p{    
-    margin : 5rem 6rem;
+    margin : 3rem 9rem;
+    padding: 2rem;
     color: #02DDC8;
+    background: url(../img/overlay\ p.png);
     font-size: 1.7rem;
     text-align: center;
+    border: #02DDC8 5px solid;
+    border-radius: 2.4em 0em 2.4em 0em;
+}
+
+#about p span{
+    color: #0C346B;
+    font-weight: bolder;
 }
 
 #faq{
@@ -88,18 +97,6 @@ hr {
     background: url(../img/MatijaFAQ-17.jpg);
 }
 
-@media(max-width:935px){
-    #about h1{
-        font-size: 5rem;
-    }
-    #faq h1{
-        font-size: 4rem;
-    }
-    #about p{
-        font-size: 1.5rem !important;
-    }
-}
-
 @media(max-width: 450px){
     .slash-1{
         width: 50%;
@@ -107,12 +104,19 @@ hr {
     }
 
     #about h1{
-        font-size: 3rem;
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+
+    #about p{
+        margin : 3rem 2.5rem;
+        padding: 2rem;
+        font-size: 1.7rem;
     }
     
     #faq h1{
         margin-top: 3rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #faq .collapsible{
