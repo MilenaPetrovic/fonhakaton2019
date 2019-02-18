@@ -109,8 +109,7 @@ body {
         box-shadow: 1vmin -0.5vmin 0 white;
         cursor: pointer;
         
-    }
-    
+    }  
 
 
 #floatButton{
@@ -127,53 +126,11 @@ body {
    
 }
 
-
 .box {
+    background-image: url(/img/pozadina-17.png);
     position: relative;
     /* width: 100vw; */
     height: 100vh;
-}
-
-.box.one {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.three {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.four {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.five {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.six {
-   background-image: url(/img/pozadina-17.png);
-}
-
-.box.seven {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.eight {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.nine {
-    background-image: url(/img/pozadina-17.png);
-}
-
-.box.ten {
-    background-image: url(/img/pozadina-17.png);
-
-}
-
-.box.eleven{
-    background-image: url(/img/pozadina-17.png);
-
 }
 
 .glide__slides {
@@ -238,9 +195,17 @@ ul {
 .row-home {
     height: 100vh;
 }
+
 .tilt {
     padding-top: 3%;
     z-index:-1;
+}
+
+.slogan{
+    color: #ffffff;
+}
+.pitanje{
+    color: #ffffff;
 }
 
 /*.left,
@@ -275,5 +240,11 @@ ul {
     .tilt{
         max-width: 100%;
         max-height: 50%;
+    }
+    .slogan{
+        font-size: 250%;
+    }
+    .pitanje{
+        font-size: 180%;
     }
 }
