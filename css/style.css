@@ -7,6 +7,112 @@ html {
 
 body {
     margin: 0;
+    text-align:center;
+}
+
+/*Za dugmice za pocetnu*/
+  button{
+    background:#1C3144;
+    color:#02DDC8;
+    border-style: double;
+    border-color: #02DDC8;
+    position: relative;
+    height:70px;
+    width:250px;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  .col.s12.l6{
+      font-size: 20px;
+  }
+  button:hover{
+    background:#1C3144;
+    color:#02DDC8;
+    border:none;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:3px;
+    width:0;
+    background: #02DDC8;
+    transition:400ms ease all;
+  }
+  button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+
+
+ /*Strelice*/
+ .arrow {
+	position: absolute;
+	top: 50%;
+	width: 9vmin;
+	height: 9vmin;
+	background: transparent;
+	border-top: 2vmin solid white;
+    border-right: 2vmin solid white;
+    border-left: 0 transparent;
+    border-bottom:0  transparent;
+	box-shadow: none;
+    transition: all 80ms ease;
+ }
+	
+	.left {
+		left: 5%;
+		transform: translate3d(0,-50%,0) rotate(-135deg);
+	}
+
+	.right {
+		right: 5%;
+		transform: translate3d(0,-50%,0) rotate(45deg);
+	}
+	
+	
+	
+	.arrow:before { 
+		content: '';
+		position: relative;
+		top: 0%;
+		right: 0%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+    }
+   /* .left:before { 
+		content: '';
+		position: absolute;
+		top: 50%;
+		left:5%;
+		transform: translate(-40%,-60%) rotate(45deg);
+		width: 200%;
+		height: 200%;
+    }*/
+    .arrow:hover {
+        border-top:2vmin solid #02DDC8;
+        border-right:2vmin solid #02DDC8;
+        box-shadow: 1vmin -0.5vmin 0 white;
+        cursor: pointer;
+        
+    }
+    
+
+
+#floatButton{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 * {
@@ -16,6 +122,7 @@ body {
 .jumbo-content{
    
 }
+
 
 .box {
     position: relative;
@@ -96,8 +203,8 @@ ul {
     justify-content: right;
     text-align: center;
     color: black;
-    font-size: 6rem;
-    font-weight: bolder;
+  /*  font-size: 6rem;*/
+ /*   font-weight: bolder;*/
     padding-top: 50vh;
 
 }
@@ -118,6 +225,10 @@ ul {
 
 .row-home {
     height: 100vh;
+}
+.tilt {
+    padding-top: 3%;
+    z-index:-1;
 }
 
 /*.left,
@@ -148,3 +259,9 @@ ul {
     box-shadow: -2px 2px 0 rgb(255, 255, 255, 1);
 }
 */
+@media screen and (max-width: 600px) {
+  /*  .tilt{
+        max-width: 100%;
+        max-height: 50%;
+    }*/
+}
