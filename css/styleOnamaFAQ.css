@@ -1,4 +1,3 @@
-
 html{
     overflow: hidden !important;
     font-family: 'Alegreya Sans', sans-serif;
@@ -79,13 +78,14 @@ hr {
 
 #faq .collapsible{
     color: #0C346B;
-    margin: 2rem 10rem;
+    margin: 2rem 17rem;
 }
 
 #faq .collapsible-body{
-    color: #fff;
-    font-size: 1rem;
+    color: #02DDC8;
+    font-size: 1.5rem;
     background-size: cover;
+    background: url(../img/MatijaFAQ-17.jpg);
 }
 
 @media(max-width:935px){
@@ -100,25 +100,28 @@ hr {
     }
 }
 
-@media(max-width:500px){
-    #about h1{
-        font-size: 3.5rem;
-    }
-    #faq h1{
-        font-size: 2.5rem;
+@media(max-width: 450px){
+    .slash-1{
+        width: 50%;
+        height: 5px;
     }
 
-    #about p{
-        font-size: 1rem !important;
-    }
-}
-
-@media(max-width:300px){
     #about h1{
         font-size: 3rem;
     }
+    
     #faq h1{
-        font-size: 2rem;
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+
+    #faq .collapsible{
+        font-size: .8rem;
+        margin: 2rem 1rem;
+    }
+
+    #faq .collapsible-body{
+        font-size: .7rem;
     }
 
     #about p{
