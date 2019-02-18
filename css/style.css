@@ -71,6 +71,7 @@ body {
     border-bottom:0  transparent;
 	box-shadow: none;
     transition: all 80ms ease;
+    z-index: 100;
  }
 	
 	.left {
@@ -198,7 +199,7 @@ ul {
 
 .tilt {
     padding-top: 3%;
-    z-index:-1;
+    /*z-index:-1;*/
 }
 
 .slogan{
