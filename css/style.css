@@ -40,7 +40,7 @@ body {
   }
   button:before,button:after{
     content:'';
-    position:absolute;
+    position: absolute;;
     top:0;
     right:0;
     height:3px;
@@ -259,7 +259,7 @@ ul {
 */
 @media screen and (max-width: 800px) {
     .slogan{
-        font-size: 250%;
+        font-size: 1.5rem;
     }
     .pitanje{
         font-size: 150%;
@@ -276,8 +276,8 @@ ul {
     }
     .kocka{
         display: inline;
-        height: 35vh;
-        width: 50vw;
+       /* height: 40vh;*/
+        max-width: 50vw;
         padding-bottom: 10%;
     }
     .sakrij{
@@ -294,10 +294,11 @@ ul {
     .col.s12.l6{
         padding-bottom: 5%;
         align-content: center;
-        margin-right: 5vw;
+        font-size: 0.95rem;
     }
     .button {
-        height: 10vh;
-        width:60vw;
+        /*height: 10vh;*/
+       /* width:250px !important;*/
+       /*mora da se promeni velicina, ne reaguje na promene, cuva 350x70*/
     }
 }
