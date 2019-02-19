@@ -84,7 +84,7 @@ body {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0) translateY(0);
   transform: translate3d(0, 0, 0) translateY(0);
-  transition: opacity 1s ease, -webkit-transform 1s ease 0.25s;
+  transition: opacity 1s ease, -webkit-transform 10s ease 0.25s;
   transition: opacity 1s ease, transform 1s ease 0.25s;
   transition: opacity 1s ease, transform 1s ease 0.25s, -webkit-transform 1s ease 0.25s;
 }
@@ -138,7 +138,7 @@ body {
 
 .tl-year p {
   color: #02DDC8;
-  line-height: 0;
+  line-height: 0.2;
 }
 
 .tl-bg {
@@ -157,7 +157,9 @@ body {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
-
+.mobileShow{
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
   #timeline {
@@ -181,12 +183,26 @@ body {
     min-height: unset;
     flex-grow: 1;
   }
-  .tl-year {
+  .tl-year p {
     font-size: 24px;
+    color:#00CCFF;
+    line-height: 0;
     
   }
+  .tl-year {
+    line-height:0 ;
+  }
+  .mobileShow{
+    display: inline;
+    font-size: 20px;
+    color:#00CCFF;
+    line-height: 0;
+  }
+  .hideTL{
+   display: none;
+  }
   .f3.text--accent.ttu {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .tl-item:hover {
