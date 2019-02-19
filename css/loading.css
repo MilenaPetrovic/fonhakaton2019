@@ -1,16 +1,28 @@
-*{
-    font-family: 'Alegreya Sans', sans-serif;;
+.loading {
+    font-family: 'Alegreya Sans', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
     overflow: hidden;
+    transition: 0.7s
 }
 
-body{
-    background: url(../img/pozadina-loading.png);
+.loading.hidden {
+    opacity: 0;
+}
+
+
+.loading {
+    background: #0262fc url(../img/pozadina-loading.png);
     background-size: cover;
     height: 100vh;
     width: 100%;
 }
 
-.loading-title img{
+.loading-title img {
     display: block;
     margin-top: 4%;
     margin-left: auto;
@@ -19,7 +31,7 @@ body{
     width: 20%;
 }
 
-.loading-subtitle{
+.loading-subtitle {
     position: relative;
     text-align: center;
     margin-top: 4em;
@@ -27,7 +39,7 @@ body{
     color: #4F80FF;
 }
 
-.loading-subtitle-2{
+.loading-subtitle-2 {
     position: relative;
     text-align: center;
     margin-top: 1em;
@@ -35,35 +47,35 @@ body{
     color: #4F80FF;
 }
 
-.loading-subtitle-2 span{
+.loading-subtitle-2 span {
     font-weight: bold;
     color: #02DDC8;
 }
 
-.loading-subtitle span{
+.loading-subtitle span {
     animation: dots 1.4s infinite;
     animation-fill-mode: both;
 }
 
-.loading-subtitle span:nth-child(2){
+.loading-subtitle span:nth-child(2) {
     animation-delay: .2s;
 }
 
-.loading-subtitle span:nth-child(3){
+.loading-subtitle span:nth-child(3) {
     animation-delay: .4s;
 }
 
-#loader-container{
+#loader-container {
     width: 200px;
     height: 200px;
     position: relative;
     top: 20%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     overflow: hidden;
 }
 
-.loader-div{
+.loader-div {
     width: calc(100% - 16px);
     height: calc(100% - 16px);
     border: 8px solid #4F80FF;
@@ -72,20 +84,22 @@ body{
     animation: rotate 5s linear infinite;
 }
 
-@keyframes rotate{
-    100%{
+@keyframes rotate {
+    100% {
         transform: rotate(360deg);
     }
 }
 
 @keyframes dots {
-    0%{
+    0% {
         opacity: .2;
     }
-    20%{
+
+    20% {
         opacity: 1;
     }
-    100%{
+
+    100% {
         opacity: .2;
     }
 }
