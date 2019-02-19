@@ -90,7 +90,7 @@ html {
     transition: .7s;
 }
 
-@media(max-width:450px){
+@media screen and (max-width:800px){
     .naslov h2{
         padding-top: 10rem;
         font-size: 3rem;
@@ -128,7 +128,7 @@ html {
     }
 }
 
-@media(max-width:350px){
+@media screen and (max-height:600px){
     .naslov h2{
         padding-top: 8rem;
         font-size: 3rem;
