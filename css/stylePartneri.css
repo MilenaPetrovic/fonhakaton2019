@@ -68,16 +68,16 @@ html {
 .swiper-slide .details h3 {
     margin: 0;
     padding: 0;
-    color: #4F80FF;
+    color: #02DDC8;
     font-size: 1rem;
     font-weight: bolder;
     text-align: center;
     line-height: 20px;
 }
 
-@media(max-width:400px){
+@media(max-width:450px){
     .naslov h2{
-        padding-top: 9rem;
+        padding-top: 10rem;
         font-size: 3rem;
     }
 
@@ -91,17 +91,41 @@ html {
     }
 
     .swiper-slide{
-        width: 150px;
-        height: 230px; 
+        width: 180px;
+        height: 260px; 
     }
 
-    .swiper-slide .details {
-        box-sizing: border-box;
+    .swiper-slide .imgBx {
+        height: 180px;
+        width: 100%;
     }
 
     .swiper-slide .details h3 {
         font-size: .9rem;
-        font-weight: bolder;
-        text-align: center;
+    }
+}
+
+@media(max-width:350px){
+    .naslov h2{
+        padding-top: 8rem;
+        font-size: 3rem;
+    }
+
+    .swiper-container{
+        width: 70%;
+    }
+
+    .swiper-slide{
+        width: 150px;
+        height: 230px; 
+    }
+
+    .swiper-slide .imgBx {
+        height: 150px;
+        width: 100%;
+    }
+
+    .swiper-slide .details h3 {
+        font-size: .8rem;
     }
 }
