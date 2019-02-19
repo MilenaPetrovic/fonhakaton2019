@@ -104,7 +104,11 @@
     }
 
     .bojaUPlavo{
-        color:#00CCFF; 
+        color:#4F80FF; 
+    }
+
+    .box.eleven hr{
+        color: #4F80FF;
     }
     
     .tim h2{
