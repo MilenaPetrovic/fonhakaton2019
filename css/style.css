@@ -63,6 +63,7 @@ body {
  /*Strelice*/
  
  .arrow {
+     /*position: fixed;*/
 	position: absolute;
 	top: 50%;
 	width: 9vmin;
@@ -85,9 +86,7 @@ body {
 	.right {
 		right: 5%;
 		transform: translate3d(0,-50%,0) rotate(45deg);
-	}
-	
-	
+	}	
 	
 	.arrow:before { 
 		content: '';
