@@ -216,6 +216,12 @@ ul {
     color: #ffffff;
 }
 
+.slogan:hover{
+    background: -webkit-linear-gradient(#02DDC8, #00CCFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .pitanje{
     color: #ffffff;
 }
@@ -301,5 +307,11 @@ ul {
         /*height: 10vh;*/
        /* width:250px !important;*/
        /*mora da se promeni velicina, ne reaguje na promene, cuva 350x70*/
+    }
+    .dugme1 {
+        max-width: 70%;
+    }
+    .dugme2 {
+        max-width: 70%;
     }
 }
