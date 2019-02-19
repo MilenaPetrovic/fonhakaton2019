@@ -149,12 +149,22 @@
 
     @media screen and (max-width: 800px){
         .loading-subtitle{
-            margin-top: 60%;
+            margin-top: 90%;
+            font-size: 1.2rem;
+        }
+
+        .loading-subtitle-2{
+            font-size: 1.2rem;
         }
     }
 
     @media screen and (max-height: 600px){
         .loading-subtitle{
-            margin-top: 70%;
+            margin-top: 90%;
+            font-size: 1.2rem;
+        }
+
+        .loading-subtitle-2{
+            font-size: 1.2rem;
         }
     }
