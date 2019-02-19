@@ -129,9 +129,11 @@ body {
 .jumbo-content{
    
 }
+
 .text-center.pitanje {
     visibility: hidden;
 }
+
 .box {
     background-image: url(/img/pozadina.png);
     position: relative;
@@ -205,7 +207,7 @@ ul {
 .tilt {
     padding-top: 1%;
     padding-bottom: 0%;
-    height: 600px;
+    height: 80vh;
     /*z-index:-1;*/
 }
 .fon.hakaton.logo {
@@ -222,13 +224,9 @@ ul {
     -webkit-text-fill-color: transparent;
 }
 
-.pitanje{
-    color: #ffffff;
-}
-
 .kocka{
-    height: 360px;
-    width:360px;
+    max-height: 50%;
+    width:auto;
     padding-top: 0%;
 }
 .sakrij{
