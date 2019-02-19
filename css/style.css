@@ -309,9 +309,9 @@ ul {
        /*mora da se promeni velicina, ne reaguje na promene, cuva 350x70*/
     }
     .dugme1 {
-        max-width: 70%;
+        max-width: 75%;
     }
     .dugme2 {
-        max-width: 70%;
+        max-width: 75%;
     }
 }
