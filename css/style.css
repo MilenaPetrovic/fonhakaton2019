@@ -276,7 +276,7 @@ ul {
     }
     .kocka{
         display: inline;
-        height: 33vh;
+        height: 35vh;
         width: 50vw;
         padding-bottom: 10%;
     }
@@ -293,9 +293,11 @@ ul {
     }
     .col.s12.l6{
         padding-bottom: 5%;
-        padding-right: 3%;
+        align-content: center;
+        margin-right: 5vw;
     }
     .button {
-        width:70vw;
+        height: 10vh;
+        width:60vw;
     }
 }
