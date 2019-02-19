@@ -299,5 +299,7 @@ ul {
     .col.s12.l6{
         padding-bottom: 2%;
     }
-    
+    .button {
+        width:320px;
+    }
 }
