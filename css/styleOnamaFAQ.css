@@ -97,7 +97,7 @@ hr {
     background: url(../img/MatijaFAQ-17.jpg);
 }
 
-@media(max-width: 450px){
+@media(max-width: 600px){
     .slash-1{
         width: 50%;
         height: 5px;
@@ -129,7 +129,7 @@ hr {
     }
 }
 
-@media(max-width: 350px){
+@media(max-width: 360px){
     
     #about h1{
         margin-top: 3rem;
