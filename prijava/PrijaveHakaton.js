@@ -1,5 +1,4 @@
 $(function () {	
-
 	//COLLAPSIBLE
 
 	var coll = document.getElementsByClassName("collapsible");

@@ -1,150 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Prijave.css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-    <script src="main.js"></script>
     <title>Prijava</title>
 </head>
+
 <body>
-    
-<h1>Prijava za Tech Challenge</h1>
-<h3>Svaki tim može imati 3 ili 4 člana.</h3>
-<h3>Sva polja su obavezna, nakon prijave otvoriće se novi prozor gde ćete poslati svoj CV</h3>
 
-<form name="submit-to-google-sheet">
-    <button type="button" class="collapsible">Tim</button>
-    <div class="content">
-        <div class="forma">
-            <h2>Naziv tima:</h2>
-            <input id="tim" name="naziv-tima" type="text" class="form-control" >
-            <h2>Kako ste saznali za Tech Challenge?</h2>    
-            <input id="saznali" name="kako-ste-saznali" type="text" class="form-control" >
-            <h2>Da li ste učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite iskustvo.</h2>    
-            <input id="iskustvo" name="iskustvo" type="text" class="form-control" >
-            <h2>Zašto se prijavljujete za Tech Challenge? Iznesite svoju motivaciju, očekivanja i zašto baš vaš tim treba da odaberemo. </h2>    
-            <input id="motivacija" name="zasto-ste-se-prijavili" type="text" class="form-control" >
-            <h2>Koja je mana vašeg tima?</h2>    
-            <input id="prednostimane" name="prednost-mana" type="text" class="form-control" >
-        </div>
-    </div><br><br>
+    <h1>Prijava za Tech Challenge</h1>
+    <h3>Svaki tim može imati 3 ili 4 člana.</h3>
+    <h3>Sva polja su obavezna, nakon prijave otvoriće se novi prozor gde ćete poslati svoj CV.</h3>
 
-    <button type="button" class="collapsible">Prvi Član</button>
-    <div class="content">
-        <div class="forma">
-            <h2>Ime i prezime</h2>
-            <input id="ime-prezime1" id="name" name="ime-prezime1" type="text" class="form-control" >
-            <h2>E-mail</h2>    
-            <input id="email1" name="email1" type="text" class="form-control" >
-            <h2>Telefon</h2>    
-            <input id="telefon1" name="telefon1" type="tel" class="form-control" >
-            <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola1"name="faks/skola1" type="text" class="form-control" >
-            <h2>Godina studija/razred</h2>    
-            <input id="godina1" name="godina1" type="number" class="form-control" >          
-        </div>
-    </div><br><br>
+    <form name="submit-to-google-sheet">
+        <button type="button" class="collapsible">Tim</button>
+        <div class="content">
+            <div class="forma">
+                <h2>Naziv tima:</h2>
+                <input id="tim" name="naziv-tima" type="text" class="form-control aaa">
+                <h2>Kako ste saznali za Tech Challenge?</h2>
+                <input id="saznali" name="kako-ste-saznali" type="text" class="form-control aaa">
+                <h2>Da li ste učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite
+                    iskustvo.</h2>
+                <input id="iskustvo" name="iskustvo" type="text" class="form-control aaa">
+                <h2>Zašto se prijavljujete za Tech Challenge? Iznesite svoju motivaciju, očekivanja i zašto baš vaš tim
+                    treba da odaberemo. </h2>
+                <input id="motivacija" name="zasto-ste-se-prijavili" type="text" class="form-control aaa">
+                <h2>Koja je mana vašeg tima?</h2>
+                <input id="prednostimane" name="prednost-mana" type="text" class="form-control aaa">
+            </div>
+        </div><br><br>
 
-    <button type="button" class="collapsible">Drugi Član</button>
-    <div class="content">
-        <div class="forma">
-            <h2>Ime i prezime</h2>
-            <input id="ime-prezime2" name="ime-prezime2" type="text" class="form-control" >
-            <h2>E-mail</h2>    
-            <input id="email2" name="email2" type="text" class="form-control" >
-            <h2>Telefon</h2>    
-            <input id="telefon2" name="telefon2" type="tel" class="form-control" >
-            <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola2" name="faks/skola2" type="text" class="form-control" >
-            <h2>Godina studija/razred</h2>    
-            <input id="godina2" name="godina2" type="number" class="form-control" >
-        </div>
-    </div><br><br>
+        <button type="button" class="collapsible">Prvi Član</button>
+        <div class="content">
+            <div class="forma">
+                <h2>Ime i prezime</h2>
+                <input id="ime-prezime1" id="name" name="ime-prezime1" type="text" class="form-control aaa">
+                <h2>E-mail</h2>
+                <input id="email1" name="email1" type="text" class="form-control aaa">
+                <h2>Telefon</h2>
+                <input id="telefon1" name="telefon1" type="tel" class="form-control aaa">
+                <h2>Fakultet/Srednja škola</h2>
+                <input id="faks/skola1" name="faks/skola1" type="text" class="form-control aaa">
+                <h2>Godina studija/razred</h2>
+                <input id="godina1" name="godina1" type="number" class="form-control aaa">
+            </div>
+        </div><br><br>
 
-    <button type="button" class="collapsible">Treći Član</button>
-    <div class="content">
-        <div class="forma">
-            <h2>Ime i prezime</h2>
-            <input id="ime-prezime3" name="ime-prezime3" type="text" class="form-control" >
-            <h2>E-mail</h2>    
-            <input id="email3" name="email3" type="email" class="form-control" >
-            <h2>Telefon</h2>    
-            <input id="telefon3" name="telefon3" type="tel" class="form-control" >
-            <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola3" name="faks/skola3" type="text" class="form-control" >
-            <h2>Godina studija/razred</h2>    
-            <input id="godina3" name="godina3" type="number" class="form-control" >
-        </div>
-    </div><br><br>
+        <button type="button" class="collapsible">Drugi Član</button>
+        <div class="content">
+            <div class="forma">
+                <h2>Ime i prezime</h2>
+                <input id="ime-prezime2" name="ime-prezime2" type="text" class="form-control aaa">
+                <h2>E-mail</h2>
+                <input id="email2" name="email2" type="text" class="form-control aaa">
+                <h2>Telefon</h2>
+                <input id="telefon2" name="telefon2" type="tel" class="form-control aaa">
+                <h2>Fakultet/Srednja škola</h2>
+                <input id="faks/skola2" name="faks/skola2" type="text" class="form-control aaa">
+                <h2>Godina studija/razred</h2>
+                <input id="godina2" name="godina2" type="number" class="form-control aaa">
+            </div>
+        </div><br><br>
 
-    <button type="button" class="collapsible">Četvrti Član</button>
-    <div class="content">
-        <div class="forma">
-            <h2>Ime i prezime</h2>
-            <input name="ime-prezime4" type="text" class="form-control" >
-            <h2>E-mail</h2>    
-            <input name="email4" type="text" class="form-control" >
-            <h2>Telefon</h2>    
-            <input name="telefon4" type="tel" class="form-control" >
-            <h2>Fakultet/Srednja škola</h2>    
-            <input name="faks/skola4" type="text" class="form-control" >
-            <h2>Godina studija/razred</h2>    
-            <input name="godina4" type="number" class="form-control" >
-        </div>
-    </div><br><br>
+        <button type="button" class="collapsible">Treći Član</button>
+        <div class="content">
+            <div class="forma">
+                <h2>Ime i prezime</h2>
+                <input id="ime-prezime3" name="ime-prezime3" type="text" class="form-control aaa">
+                <h2>E-mail</h2>
+                <input id="email3" name="email3" type="text" class="form-control aaa">
+                <h2>Telefon</h2>
+                <input id="telefon3" name="telefon3" type="tel" class="form-control aaa">
+                <h2>Fakultet/Srednja škola</h2>
+                <input id="faks/skola3" name="faks/skola3" type="text" class="form-control aaa">
+                <h2>Godina studija/razred</h2>
+                <input id="godina3" name="godina3" type="number" class="form-control aaa">
+            </div>
+        </div><br><br>
 
-    <button id="dugme" type="submit" class="form-control submit" onclick="prijava();">POTVRDI</button>
-    <h1 id="potvrda"></h1>
-    <br><br>
+        <button type="button" class="collapsible">Četvrti Član</button>
+        <div class="content">
+            <div class="forma">
+                <h2>Ime i prezime</h2>
+                <input name="ime-prezime4" type="text" class="form-control">
+                <h2>E-mail</h2>
+                <input name="email4" type="text" class="form-control">
+                <h2>Telefon</h2>
+                <input name="telefon4" type="tel" class="form-control">
+                <h2>Fakultet/Srednja škola</h2>
+                <input name="faks/skola4" type="text" class="form-control">
+                <h2>Godina studija/razred</h2>
+                <input name="godina4" type="number" class="form-control">
+            </div>
+        </div><br><br>
 
-</form>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="PrijaveTech.js"></script>
-<script>
-    
-function prijava(){
-    document.getElementById("potvrda").innerHTML ="Uspešno ste se prijavili";
-    window.open('https://driveuploader.com/upload/CDqZTczvXW/');
-    document.getElementById('dugme').style.display = 'none'
+        <button id="dugme" type="submit" class="form-control submit" onclick="prijava();">POTVRDI</button>
+        <h1 id="potvrda"></h1>
+        <br><br>
 
-}
-function prijava(){
-    if(document.getElementById("email1").value != '' &&
-       document.getElementById("email2").value != '' &&
-       document.getElementById("email3").value != '' &&
-       document.getElementById("ime-prezime1").value != '' &&
-       document.getElementById("ime-prezime2").value != '' &&
-       document.getElementById("ime-prezime3").value != '' &&
-       document.getElementById("telefon1").value != '' &&
-       document.getElementById("telefon2").value != '' &&
-       document.getElementById("telefon3").value != '' &&
-       document.getElementById("faks/skola1").value != '' &&
-       document.getElementById("faks/skola2").value != '' &&
-       document.getElementById("faks/skola3").value != '' &&
-       document.getElementById("godina1").value != '' &&
-       document.getElementById("godina2").value != '' &&
-       document.getElementById("godina3").value != '' &&
-       document.getElementById("tim").value != '' &&
-       document.getElementById("saznali").value != '' &&
-       document.getElementById("iskustvo").value != '' &&
-       document.getElementById("motivacija").value != '' &&
-       document.getElementById("prednostimane").value != ''){
-        potvrda();
-        document.getElementById("potvrda").innerHTML ="Uspešno ste se prijavili";
-        window.open('https://driveuploader.com/upload/37qMAd4w9h/');
-        document.getElementById('dugme').style.display = 'none'
-    } else{
-        event.preventDefault();
-        alert('Popunite sva polja');
-    }
-}
+    </form>
 
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 and Android browser -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="PrijaveTech.js"></script>
+    <script>
 
-</script>
+        function potvrda() {
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxgH_Xq8de0HcJXcIGQgc8PqAEDzfhfFnNWLrZrLLU_c_zkAV9A/exec'
+            const form = document.forms['submit-to-google-sheet']
+            form.addEventListener("submit", e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        }
+        function prijava() {
+            var gotovo = true;
+            var list = document.querySelectorAll('.aaa');
+            for(var element of list){
+                if(element.value == "") {
+                    gotovo = false;
+                    break;
+                }
+            }            
+            if (gotovo) {
+                potvrda();
+                //document.getElementById("potvrda").innerHTML = "Uspešno ste se prijavili";
+                window.open('https://driveuploader.com/upload/37qMAd4w9h/');
+                //document.getElementById('dugme').style.display = 'none';
+
+                Swal.fire({
+                    text: 'Uspešno ste se prijavili!',
+                    type: 'success',
+                    confirmButtonText: 'Ok'
+                })
+            }else {
+                event.preventDefault();
+                Swal.fire({
+                    //title:'Error!',
+                    text: 'Niste popunili sva polja',
+                    type: 'error',
+                    confirmButtonText: 'Ok'
+                })
+            }
+        }
+    </script>
 
 </body>
+
 </html>
