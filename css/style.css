@@ -325,4 +325,7 @@ ul {
         max-height: 33%;
         width:auto;
     }
+    #druga_kolona {
+        padding-bottom: 10%;
+    }
 }
