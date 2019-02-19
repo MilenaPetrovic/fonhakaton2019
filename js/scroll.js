@@ -19,14 +19,18 @@ function scrollToSlide(e) {
 
 }
 
-glide.on('run.after', function () {
+glide.on('run.before', function (move) {
+	// console.log('=====================');
+	// console.log('run.end', move);
 	// console.log('stari index', glide.index);
-	if (glide.index === 10) {
-		glide.index = 4;
-		// console.log('novi index', glide.index)
-	}
-	else if (glide.index === 0) {
+	// console.log('index', glide.index);
+	if (glide.index === 0 && move.direction === "<") {
+		// glide.index = 6;
 		glide.index = 6;
-		// console.log('novi index 2', glide.index)
+		// console.log("POCETAK");
+		// console.log('index 2', glide.index);
+	}
+	else if (glide.index === 10 && move.direction === ">") {
+		glide.index = 4;
 	}
 })
