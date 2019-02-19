@@ -27,7 +27,7 @@ body {
 
 .tl-item {
   border-right: 2px solid #02DDC8;
-  border-left: 2px solid #02DDC8;
+ /* border-left: 2px solid #02DDC8;*/
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   position: relative;

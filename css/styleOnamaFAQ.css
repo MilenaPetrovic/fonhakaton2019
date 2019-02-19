@@ -20,6 +20,22 @@ hr {
     color: #4F80FF;
 }
 
+.box.four hr{
+    color: #02DDC8;
+}
+
+.box.four #faq h1{
+    color: #02DDC8;
+}
+
+.box.five #about h1{
+    color: #02DDC8;
+}
+
+.box.five hr{
+    color: #02DDC8;
+}
+
 .slash-1 {
     height: 10px;
     background-image: linear-gradient(-45deg,
@@ -44,11 +60,11 @@ hr {
 }
 
 #about p{    
-    margin : 3rem 9rem;
+    margin : 3rem 15rem;
     padding: 2rem;
     color: #02DDC8;
     background: url(../img/overlay\ p.png);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: center;
     border: #02DDC8 5px solid;
     border-radius: 2.4em 0em 2.4em 0em;
