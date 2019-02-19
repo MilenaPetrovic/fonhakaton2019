@@ -20,13 +20,13 @@
             <h2>Naziv tima:</h2>
             <input id="tim" name="naziv-tima" type="text" class="form-control" >
             <h2>Kako ste saznali za FON Hakaton?</h2>    
-            <textarea name="kako-ste-saznali" class="form-control" rows="3"></textarea>
+            <textarea id="saznali" name="kako-ste-saznali" class="form-control" rows="3"></textarea>
             <h2>Da li ste učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite iskustvo.</h2>    
-            <textarea name="iskustvo" class="form-control" rows="3"></textarea>
+            <textarea id="iskustvo" name="iskustvo" class="form-control" rows="3"></textarea>
             <h2>Zašto ste se prijavili za FON Hakaton?</h2>    
-            <textarea name="zasto-ste-se-prijavili" class="form-control" rows="4" ></textarea>
+            <textarea id="motivacija" name="zasto-ste-se-prijavili" class="form-control" rows="4" ></textarea>
             <h2>Navedite ključnu prednost i manu tima:</h2>    
-            <textarea name="prednost-mana" class="form-control" rows="3" ></textarea>
+            <textarea id="prednostimane" name="prednost-mana" class="form-control" rows="3" ></textarea>
         </div>
     </div><br><br>
 
@@ -116,7 +116,25 @@ function potvrda(){
     
 function prijava(){
     if(document.getElementById("email1").value != '' &&
-       document.getElementById("email2").value != '' ){
+       document.getElementById("email2").value != '' &&
+       document.getElementById("email3").value != '' &&
+       document.getElementById("ime-prezime1").value != '' &&
+       document.getElementById("ime-prezime2").value != '' &&
+       document.getElementById("ime-prezime3").value != '' &&
+       document.getElementById("telefon1").value != '' &&
+       document.getElementById("telefon2").value != '' &&
+       document.getElementById("telefon3").value != '' &&
+       document.getElementById("faks/skola1").value != '' &&
+       document.getElementById("faks/skola2").value != '' &&
+       document.getElementById("faks/skola3").value != '' &&
+       document.getElementById("godina1").value != '' &&
+       document.getElementById("godina2").value != '' &&
+       document.getElementById("godina3").value != '' &&
+       document.getElementById("tim").value != '' &&
+       document.getElementById("saznali").value != '' &&
+       document.getElementById("iskustvo").value != '' &&
+       document.getElementById("motivacija").value != '' &&
+       document.getElementById("prednostimane").value != ''){
         potvrda();
         document.getElementById("potvrda").innerHTML ="Uspešno ste se prijavili";
         window.open('https://driveuploader.com/upload/37qMAd4w9h/');
