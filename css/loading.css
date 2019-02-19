@@ -27,6 +27,19 @@ body{
     color: #4F80FF;
 }
 
+.loading-subtitle-2{
+    position: relative;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1rem;
+    color: #4F80FF;
+}
+
+.loading-subtitle-2 span{
+    font-weight: bold;
+    color: #02DDC8;
+}
+
 .loading-subtitle span{
     animation: dots 1.4s infinite;
     animation-fill-mode: both;
