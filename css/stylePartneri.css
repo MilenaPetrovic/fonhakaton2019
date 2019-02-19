@@ -2,6 +2,14 @@ html {
     overflow: hidden !important;
 }
 
+.box.two .naslov #box--2{
+    color: #02DDC8;
+}
+
+#box--2 hr{
+    color: #02DDC8;
+}
+
 .naslov h2{
     padding-top: 5rem;
     margin: 0 auto 0 auto;
