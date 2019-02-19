@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon-03.png" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -127,12 +129,12 @@
         function prijava() {
             var gotovo = true;
             var list = document.querySelectorAll('.aaa');
-            for(var element of list){
-                if(element.value == "") {
+            for (var element of list) {
+                if (element.value == "") {
                     gotovo = false;
                     break;
                 }
-            }            
+            }
             if (gotovo) {
                 potvrda();
                 //document.getElementById("potvrda").innerHTML = "Uspešno ste se prijavili";
@@ -144,7 +146,7 @@
                     type: 'success',
                     confirmButtonText: 'Ok'
                 })
-            }else {
+            } else {
                 event.preventDefault();
                 Swal.fire({
                     //title:'Error!',
