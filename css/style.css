@@ -258,13 +258,6 @@ ul {
 }
 */
 @media screen and (max-width: 800px) {
-   /* body {
-        overflow-block:none;
-    }*/
-    .tilt{
-        max-width: 100%;
-        max-height: 50%;
-    }
     .slogan{
         font-size: 250%;
     }
@@ -283,8 +276,8 @@ ul {
     }
     .kocka{
         display: inline;
-        height: 250px;
-        width:220px;
+        height: 33vh;
+        width: 50vw;
         padding-bottom: 10%;
     }
     .sakrij{
@@ -294,12 +287,14 @@ ul {
         padding-bottom: 0%;
         margin-bottom: 0%;
         border-bottom: 0%;
-        height: 430px;
+        height: 60vh;
+        max-width: 100%;
+        max-height: 50%;
     }
     .col.s12.l6{
-        padding-bottom: 2%;
+        padding-bottom: 5%;
     }
     .button {
-        width:320px;
+        width:70vw;
     }
 }
