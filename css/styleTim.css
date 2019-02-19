@@ -96,8 +96,7 @@
 
 
     .tim {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 0.7rem;
         margin: 0 auto 0 auto;
         color: #02DDC8;
         text-align: center;
@@ -110,8 +109,9 @@
     
     .tim h2{
         margin-bottom: 5px;
-        font-size: 5rem;
+        font-size: 4.5rem;
         font-weight: bolder;
+        margin-top: 10px;
 
     }
 
@@ -122,6 +122,8 @@
         background-position: 50%;
         box-sizing: border-box;
         color: #02DDC8;
+        margin-top: 1px;
+        margin-bottom: 4px;
     }
     
     .tim .slash-2 {
