@@ -35,7 +35,7 @@
     position: relative;
     text-align: center;
     margin-top: 30%;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #4F80FF;
 }
 
@@ -43,7 +43,7 @@
     position: relative;
     text-align: center;
     margin-top: 1em;
-    font-size: 1rem;
+    font-size: 2rem;
     color: #4F80FF;
 }
 
@@ -73,7 +73,7 @@
     z-index: 1001;
 }
 
-    #loader:before {
+#loader:before {
         content: "";
         position: absolute;
         top: 5px;
@@ -86,7 +86,7 @@
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
-    }
+}
 
     #loader:after {
         content: "";
@@ -145,4 +145,16 @@
 
     #loader-wrapper .loader-section.section-right {
         right: 0;
+    }
+
+    @media screen and (max-width: 800px){
+        .loading-subtitle{
+            margin-top: 60%;
+        }
+    }
+
+    @media screen and (max-height: 600px){
+        .loading-subtitle{
+            margin-top: 70%;
+        }
     }
