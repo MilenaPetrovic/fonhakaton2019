@@ -14,7 +14,9 @@ body {
     text-align:center;
 }
 
-
+.ovoNestaje {
+    display: none;
+}
 
 /*Za dugmice za pocetnu*/
   button{
