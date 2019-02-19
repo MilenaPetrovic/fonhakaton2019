@@ -95,14 +95,20 @@
     }
 
 
-    .tim h2{
-        padding-top: 5rem;
+    .tim {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
         margin: 0 auto 0 auto;
-        color: #4F80FF;
-        font-size: 5rem;
-        font-weight: bolder;
+        color: #02DDC8;
         text-align: center;
         text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    }
+    
+    .tim h2{
+        margin-bottom: 5px;
+        font-size: 5rem;
+        font-weight: bolder;
+
     }
 
     .tim hr {
@@ -111,7 +117,7 @@
         max-width: 100%;
         background-position: 50%;
         box-sizing: border-box;
-        color: #4F80FF;
+        color: #02DDC8;
     }
     
     .tim .slash-2 {
@@ -125,8 +131,13 @@
           transparent 75%,
           currentColor 75%);
         background-size: 10px 10px;
-        width: 10%;
-      }
+        width: 30%;
+    }
+
+
+    .boja{
+        color: red !important;
+    }
 
     @media only screen and (max-width: 992px) {
         
@@ -166,7 +177,6 @@
             padding: 0;
             margin: 8px auto 0 auto;
             color: #02DDC8;
-            font-size: 2rem;
             font-weight: bolder;
             text-align: center;
             text-shadow: 0 10px 10px rgba(0, 0, 0, .2);
@@ -177,6 +187,7 @@
             margin-top: 0px;
             padding-bottom: 5px;
             margin-bottom: 0px;
+            font-size: 2.7rem;
         }
         
         .crta {
@@ -186,6 +197,12 @@
             height: 1px;
             width: 30%;
             background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(19, 233, 222), rgba(255, 255, 255, 0));
+        }
+
+        .tim .slash-2 {
+            height: 5px;
+            margin-top: 3px;
+            margin-bottom: 4px;
         }
 
         #blur3 img {
