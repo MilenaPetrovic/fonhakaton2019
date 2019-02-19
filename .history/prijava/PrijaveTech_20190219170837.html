@@ -19,15 +19,15 @@
     <div class="content">
         <div class="forma">
             <h2>Naziv tima:</h2>
-            <input id="tim" name="naziv-tima" type="text" class="form-control" >
+            <input name="naziv-tima" type="text" class="form-control" >
             <h2>Kako ste saznali za Tech Challenge?</h2>    
-            <input id="saznali" name="kako-ste-saznali" type="text" class="form-control" >
+            <input name="kako-ste-saznali" type="text" class="form-control" >
             <h2>Da li ste učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite iskustvo.</h2>    
-            <input id="iskustvo" name="iskustvo" type="text" class="form-control" >
+            <input name="iskustvo" type="text" class="form-control" >
             <h2>Zašto se prijavljujete za Tech Challenge? Iznesite svoju motivaciju, očekivanja i zašto baš vaš tim treba da odaberemo. </h2>    
-            <input id="motivacija" name="zasto-ste-se-prijavili" type="text" class="form-control" >
+            <input name="zasto-ste-se-prijavili" type="text" class="form-control" >
             <h2>Koja je mana vašeg tima?</h2>    
-            <input id="prednostimane" name="prednost-mana" type="text" class="form-control" >
+            <input name="prednost-mana" type="text" class="form-control" >
         </div>
     </div><br><br>
 
@@ -35,15 +35,15 @@
     <div class="content">
         <div class="forma">
             <h2>Ime i prezime</h2>
-            <input id="ime-prezime1" id="name" name="ime-prezime1" type="text" class="form-control" >
+            <input id="name" name="ime-prezime1" type="text" class="form-control" >
             <h2>E-mail</h2>    
-            <input id="email1" name="email1" type="text" class="form-control" >
+            <input id="email" name="email1" type="text" class="form-control" >
             <h2>Telefon</h2>    
-            <input id="telefon1" name="telefon1" type="tel" class="form-control" >
+            <input name="telefon1" type="tel" class="form-control" >
             <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola1"name="faks/skola1" type="text" class="form-control" >
+            <input name="faks/skola1" type="text" class="form-control" >
             <h2>Godina studija/razred</h2>    
-            <input id="godina1" name="godina1" type="number" class="form-control" >          
+            <input name="godina1" type="number" class="form-control" >          
         </div>
     </div><br><br>
 
@@ -51,15 +51,15 @@
     <div class="content">
         <div class="forma">
             <h2>Ime i prezime</h2>
-            <input id="ime-prezime2" name="ime-prezime2" type="text" class="form-control" >
+            <input name="ime-prezime2" type="text" class="form-control" >
             <h2>E-mail</h2>    
-            <input id="email2" name="email2" type="text" class="form-control" >
+            <input name="email2" type="text" class="form-control" >
             <h2>Telefon</h2>    
-            <input id="telefon2" name="telefon2" type="tel" class="form-control" >
+            <input name="telefon2" type="tel" class="form-control" >
             <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola2" name="faks/skola2" type="text" class="form-control" >
+            <input name="faks/skola2" type="text" class="form-control" >
             <h2>Godina studija/razred</h2>    
-            <input id="godina2" name="godina2" type="number" class="form-control" >
+            <input name="godina2" type="number" class="form-control" >
         </div>
     </div><br><br>
 
@@ -67,15 +67,15 @@
     <div class="content">
         <div class="forma">
             <h2>Ime i prezime</h2>
-            <input id="ime-prezime3" name="ime-prezime3" type="text" class="form-control" >
+            <input name="ime-prezime3" type="text" class="form-control" >
             <h2>E-mail</h2>    
-            <input id="email3" name="email3" type="email" class="form-control" >
+            <input name="email3" type="email" class="form-control" >
             <h2>Telefon</h2>    
-            <input id="telefon3" name="telefon3" type="tel" class="form-control" >
+            <input name="telefon3" type="tel" class="form-control" >
             <h2>Fakultet/Srednja škola</h2>    
-            <input id="faks/skola3" name="faks/skola3" type="text" class="form-control" >
+            <input name="faks/skola3" type="text" class="form-control" >
             <h2>Godina studija/razred</h2>    
-            <input id="godina3" name="godina3" type="number" class="form-control" >
+            <input name="godina3" type="number" class="form-control" >
         </div>
     </div><br><br>
 
@@ -110,39 +110,6 @@ function prijava(){
     document.getElementById('dugme').style.display = 'none'
 
 }
-function prijava(){
-    if(document.getElementById("email1").value != '' &&
-       document.getElementById("email2").value != '' &&
-       document.getElementById("email3").value != '' &&
-       document.getElementById("ime-prezime1").value != '' &&
-       document.getElementById("ime-prezime2").value != '' &&
-       document.getElementById("ime-prezime3").value != '' &&
-       document.getElementById("telefon1").value != '' &&
-       document.getElementById("telefon2").value != '' &&
-       document.getElementById("telefon3").value != '' &&
-       document.getElementById("faks/skola1").value != '' &&
-       document.getElementById("faks/skola2").value != '' &&
-       document.getElementById("faks/skola3").value != '' &&
-       document.getElementById("godina1").value != '' &&
-       document.getElementById("godina2").value != '' &&
-       document.getElementById("godina3").value != '' &&
-       document.getElementById("tim").value != '' &&
-       document.getElementById("saznali").value != '' &&
-       document.getElementById("iskustvo").value != '' &&
-       document.getElementById("motivacija").value != '' &&
-       document.getElementById("prednostimane").value != ''){
-        potvrda();
-        document.getElementById("potvrda").innerHTML ="Uspešno ste se prijavili";
-        window.open('https://driveuploader.com/upload/37qMAd4w9h/');
-        document.getElementById('dugme').style.display = 'none'
-    } else{
-        event.preventDefault();
-        alert('Popunite sva polja');
-    }
-}
-
-
-
 </script>
 
 </body>
