@@ -62,17 +62,32 @@ html {
 
 .swiper-slide .details {
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .swiper-slide .details h3 {
     margin: 0;
     padding: 0;
     color: #02DDC8;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: bolder;
     text-align: center;
-    line-height: 20px;
+}
+
+.swiper-slide .details a{
+    margin: 0;
+    padding: 0;
+    color: #0C346B;
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.swiper-slide .details a:hover{
+    color: #02DDC8;
+    font-size: 1rem;
+    transition: .7s;
 }
 
 @media(max-width:450px){
@@ -103,6 +118,14 @@ html {
     .swiper-slide .details h3 {
         font-size: .9rem;
     }
+
+    .swiper-slide .details a{
+        font-size: .7rem;
+    }
+    
+    .swiper-slide .details a:hover{
+        font-size: .8rem;
+    }
 }
 
 @media(max-width:350px){
@@ -127,5 +150,13 @@ html {
 
     .swiper-slide .details h3 {
         font-size: .8rem;
+    }
+
+    .swiper-slide .details a{
+        font-size: .6rem;
+    }
+    
+    .swiper-slide .details a:hover{
+        font-size: .7rem;
     }
 }
