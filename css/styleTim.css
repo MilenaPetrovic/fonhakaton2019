@@ -239,4 +239,26 @@
         }
     }
 
+    @media (min-width: 1600px){
+        .tim h2{
+            padding-top: 10%;
+            font-size: 6rem;
+        }
+
+        .tim hr{
+            margin-bottom: 4%;
+        }
+    }
+
+    @media (min-height: 1000px){
+        .tim h2{
+            padding-top: 10%;
+            font-size: 6rem;
+        }
+
+        .tim hr{
+            margin-bottom: 4%;
+        }
+    }
+
 }
