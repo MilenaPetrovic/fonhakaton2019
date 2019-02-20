@@ -169,7 +169,7 @@
         }
     }
 
-    @media (max-width: 1600px){
+    @media (min-width: 1600px){
         .loading-subtitle{
             margin-top: 50%;
             font-size: 2rem;
@@ -180,9 +180,9 @@
         }
     }
 
-    @media (max-height: 1000px){
+    @media (min-height: 1000px){
         .loading-subtitle{
-            margin-top: 50%;
+            margin-top: 40%;
             font-size: 2rem;
         }
 
