@@ -329,3 +329,27 @@ ul {
         padding-bottom: 10%;
     }
 }
+
+@media (min-width: 1600px){
+    .kocka{
+        max-width: 70%;
+        height: auto;
+    }
+    .logo{
+        margin-top: 5%;
+        max-height: 44%;
+        width: auto;
+    }
+}
+
+@media (min-height: 1000px){
+    .kocka{
+        max-width: 70%;
+        height: auto;
+    }
+    .logo{
+        margin-top: 5%;
+        max-height: 44%;
+        width: auto;
+    }
+}

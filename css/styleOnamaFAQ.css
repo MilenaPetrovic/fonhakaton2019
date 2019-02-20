@@ -172,3 +172,65 @@ hr {
         font-size: .7rem;
     }
 }
+
+@media (min-width: 1600px){
+    #about h1{
+        margin-top: 15%;
+        font-size: 6rem;
+    }
+
+    #about p{
+        margin: 3rem 20rem;
+        padding: 3rem;
+        font-size: 1.6rem;
+    }
+
+    #faq h1{
+        margin-top: 15%;
+        font-size: 6rem;
+    }
+
+    #faq .collapsible{
+        font-size: 1.5rem;
+        margin: 3rem 18rem;
+    }
+
+    #faq .collapsible-body{
+        font-size: 1.8rem;
+    }
+
+    #mailto{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-height: 1000px){
+    #about h1{
+        margin-top: 15%;
+        font-size: 6rem;
+    }
+
+    #about p{
+        margin: 3rem 20rem;
+        padding: 3rem;
+        font-size: 1.6rem;
+    }
+
+    #faq h1{
+        margin-top: 15%;
+        font-size: 6rem;
+    }
+
+    #faq .collapsible{
+        font-size: 1.5rem;
+        margin: 3rem 18rem;
+    }
+
+    #faq .collapsible-body{
+        font-size: 1.8rem;
+    }
+
+    #mailto{
+        font-size: 1.4rem;
+    }
+}
