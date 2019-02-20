@@ -13,6 +13,16 @@
         margin-top: 3rem;
         z-index: 1;
     }
+
+    .linkedin1{
+        display: inline-block;
+        margin-right: 9px;
+
+    }
+
+    .mail1{
+        display: inline-block;
+    }
       
     .email-org {
         margin-top: 6.5rem;
@@ -33,7 +43,7 @@
 
     .titula{
           margin-top: 0px;
-          margin-bottom: 0px;
+          margin-bottom: 1px;
           font-size: 1.1rem;
     }
       
@@ -43,7 +53,7 @@
     }
       
     #razmak{
-        margin: 7px;
+        margin: 2px;
     }
 
     .card{
@@ -121,13 +131,11 @@
 
     .tim hr {
         border: 0;
-        margin: 1.35em auto;
+        margin: 1rem auto;
         max-width: 100%;
         background-position: 50%;
         box-sizing: border-box;
         color: #02DDC8;
-        margin-top: 1px;
-        margin-bottom: 4px;
     }
     
     .tim .slash-2 {
