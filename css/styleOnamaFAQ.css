@@ -113,7 +113,7 @@ hr {
     background: url(../img/MatijaFAQ-17.jpg);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .slash-1{
         width: 50%;
         height: 5px;
