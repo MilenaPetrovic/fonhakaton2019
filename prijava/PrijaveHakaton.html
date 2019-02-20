@@ -33,6 +33,8 @@
                 <textarea id="aaa" name="zasto-ste-se-prijavili" class="form-control aaa" rows="4"></textarea>
                 <h2>Navedite ključnu prednost i manu tima:</h2>
                 <textarea id="aaa" name="prednost-mana" class="form-control aaa" rows="3"></textarea>
+                <h2>CV-jeve vašeg tima ubacite na drive (google drive, onedrive i sl.) i unesite link tog drive-a u naredno polje.</h2>
+                <input name="link-za-cv" type="text" class="form-control aaa">
             </div>
         </div><br><br>
 
@@ -88,15 +90,15 @@
         <div class="content">
             <div class="forma">
                 <h2>Ime i prezime</h2>
-                <input name="ime-prezime4" type="text" class="form-control">
+                <input name="ime-prezime4" type="text" class="form-control bbb">
                 <h2>E-mail</h2>
-                <input name="email4" type="text" class="form-control">
+                <input name="email4" type="text" class="form-control bbb">
                 <h2>Telefon</h2>
-                <input name="telefon4" type="tel" class="form-control">
+                <input name="telefon4" type="tel" class="form-control bbb">
                 <h2>Fakultet/Srednja škola</h2>
-                <input name="faks/skola4" type="text" class="form-control">
+                <input name="faks/skola4" type="text" class="form-control bbb">
                 <h2>Godina studija/razred</h2>
-                <input name="godina4" type="number" class="form-control">
+                <input name="godina4" type="number" class="form-control bbb">
             </div>
         </div><br><br>
 
@@ -136,10 +138,8 @@
             }
             if (gotovo) {
                 potvrda();
-                //document.getElementById("potvrda").innerHTML = "Uspešno ste se prijavili";
-                window.open('https://driveuploader.com/upload/37qMAd4w9h/');
-                //document.getElementById('dugme').style.display = 'none';
-
+                document.getElementById('dugme').style.display = 'none'
+                
                 Swal.fire({
                     text: 'Uspešno ste se prijavili!',
                     type: 'success',
