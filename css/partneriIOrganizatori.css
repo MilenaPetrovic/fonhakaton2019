@@ -146,3 +146,42 @@
         height: 80px;
     }
 }
+
+@media (min-width: 1400px){
+    .box.three .naslov h2, .box.eleven .naslov h2{
+        margin-top: 15%;
+        font-size: 3.5rem;
+    }
+
+    .testemonials{
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        grid-gap: 3rem;
+    }
+
+    .testemonials .card{
+        width: 300px;
+    }
+
+    .testemonials .card .content .image{
+        width: 180px;
+        height: 180px;
+    }
+
+    .testemonials .card .content .details h2{
+        font-size: 25px;
+    }
+    
+    .testemonials .card .content .details h2 span a{
+        font-size: 20px;
+    }
+
+    .testemonials .card .content .details h2 span a:hover{
+        font-size: 22px;
+    }
+}
+
+@media (min-height: 1000px){
+    .box.three .naslov h2, .box.eleven .naslov h2{
+        margin-top: 30%;
+    }
+}
