@@ -98,3 +98,51 @@
 .testemonials .card .content .details h2 span a:hover{
     font-size: 15px;
 }
+
+@media screen and (max-width:800px){
+    .box.three .naslov h2, .box.eleven .naslov h2{
+        margin-top: 15%;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    .box.three .naslov h2, .box.eleven .naslov h2{
+        font-size: 1.5rem;
+    }
+
+    .testemonials{
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        grid-gap: 1.5rem;
+    }
+
+    .testemonials .card{
+        width: 150px;
+    }
+
+    .testemonials .card .content .image{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-height:600px){
+    .box.three .naslov h2, .box.eleven .naslov h2{
+        margin-top: -50%;
+        font-size: 1.5rem;
+    }
+
+    .testemonials{
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        grid-gap: 1.5rem;
+    }
+
+    .testemonials .card{
+        width: 150px;
+    }
+
+    .testemonials .card .content .image{
+        width: 80px;
+        height: 80px;
+    }
+}
