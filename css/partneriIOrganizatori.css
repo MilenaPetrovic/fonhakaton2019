@@ -2,6 +2,10 @@
     font-size: 3rem;
 }
 
+.box.three .naslov h2, .box.three .naslov hr{
+    color: #02DDC8;
+}
+
 .testemonials{
     margin: 15% auto 100px;
     display: grid;

@@ -20,19 +20,19 @@ hr {
     color: #4F80FF;
 }
 
-.box.four hr{
-    color: #02DDC8;
-}
-
-.box.four #faq h1{
-    color: #02DDC8;
-}
-
-.box.five #about h1{
-    color: #02DDC8;
-}
-
 .box.five hr{
+    color: #02DDC8;
+}
+
+.box.five #faq h1{
+    color: #02DDC8;
+}
+
+.box.six #about h1{
+    color: #02DDC8;
+}
+
+.box.six hr{
     color: #02DDC8;
 }
 
