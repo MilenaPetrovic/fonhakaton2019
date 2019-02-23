@@ -1,0 +1,100 @@
+.box.three .naslov h2, .box.eleven .naslov h2{
+    font-size: 3rem;
+}
+
+.testemonials{
+    margin: 15% auto 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 2rem;
+}
+
+.testemonials .card{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+    background: url(../img/MatijaFAQ-17.jpg) no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5);
+    overflow: hidden;
+}
+
+.testemonials .card .layer{
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #0C346B);
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.testemonials .card:hover .layer{
+    top: 0;
+}
+
+.testemonials .card .content{
+    position: relative;
+    z-index: 2;
+}
+
+.testemonials .card .content .image{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #4F80FF;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.testemonials .card .content .image.fonis{
+    background: url(../img/logo/fonis-logo-proba.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testemonials .card .content .image.irc{
+    background: url(../img/logo/irc-logo-proba.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testemonials .card .content .image.saga{
+    background: url(../img/logo/saga-logo-proba.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testemonials .card .content .image.fon{
+    background: url(../img/logo/fon-logo-proba.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testemonials .card .content .details h2{
+    font-size: 18px;
+    color: #fff;
+}
+
+.testemonials .card .content .details h2 span a{
+    font-size: 14px;
+    color: #03a9f4;
+    transition: .5s;
+}
+
+.testemonials .card:hover .content .details h2 span a{
+    color: #fff;
+}
+
+.testemonials .card .content .details h2 span a:hover{
+    font-size: 15px;
+}
