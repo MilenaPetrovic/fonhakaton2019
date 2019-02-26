@@ -90,18 +90,8 @@ body {
     right:0;
     height:3px;
     width:0;
-    background: #00CCFF;
+    background: #02DDC8;
     transition:400ms ease all;
-  }
-  .dugme2:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .dugme2:hover:before,.dugme2:hover:after{
-    width:100%;
-    transition:800ms ease all;
   }
 
 

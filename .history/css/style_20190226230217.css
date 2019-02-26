@@ -64,11 +64,11 @@ body {
     width:100%;
     transition:800ms ease all;
   }
-.dugme2{
+#dugme2{
     background:#1C3144;
-    color:#00CCFF;
+    color:#4F80FF;
     border-style: double;
-    border-color: #00CCFF;
+    border-color: #4F80FF;
     position: relative;
     height:70px;
     width:350px;
@@ -76,33 +76,8 @@ body {
     cursor:pointer;
     transition:800ms ease all;
     outline:none;
-    /*border:none;*/
+
 }
-.dugme2:hover{
-    background:#1C3144;
-    color:#00CCFF;
-    border:none;
-}
-.dugme2:before,.dugme2:after{
-    content:'';
-    position: absolute;
-    top:0;
-    right:0;
-    height:3px;
-    width:0;
-    background: #00CCFF;
-    transition:400ms ease all;
-  }
-  .dugme2:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .dugme2:hover:before,.dugme2:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
 
 
  /*Strelice*/

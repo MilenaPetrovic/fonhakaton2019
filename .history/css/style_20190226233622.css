@@ -64,7 +64,7 @@ body {
     width:100%;
     transition:800ms ease all;
   }
-.dugme2{
+#dugme2{
     background:#1C3144;
     color:#00CCFF;
     border-style: double;
@@ -76,32 +76,21 @@ body {
     cursor:pointer;
     transition:800ms ease all;
     outline:none;
-    /*border:none;*/
 }
-.dugme2:hover{
+#dugme2.button:hover{
     background:#1C3144;
     color:#00CCFF;
     border:none;
-}
-.dugme2:before,.dugme2:after{
+  }
+#dugme2.button:before,button:after{
     content:'';
     position: absolute;
     top:0;
     right:0;
     height:3px;
     width:0;
-    background: #00CCFF;
+    background: #02DDC8;
     transition:400ms ease all;
-  }
-  .dugme2:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .dugme2:hover:before,.dugme2:hover:after{
-    width:100%;
-    transition:800ms ease all;
   }
 
 

@@ -51,7 +51,7 @@ body {
     right:0;
     height:3px;
     width:0;
-    background: #02DDC8;
+    background: #00CCFF;
     transition:400ms ease all;
   }
   button:after{
@@ -61,45 +61,6 @@ body {
     bottom:0;
   }
   button:hover:before,button:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  }
-.dugme2{
-    background:#1C3144;
-    color:#00CCFF;
-    border-style: double;
-    border-color: #00CCFF;
-    position: relative;
-    height:70px;
-    width:350px;
-    padding:0 2em;
-    cursor:pointer;
-    transition:800ms ease all;
-    outline:none;
-    /*border:none;*/
-}
-.dugme2:hover{
-    background:#1C3144;
-    color:#00CCFF;
-    border:none;
-}
-.dugme2:before,.dugme2:after{
-    content:'';
-    position: absolute;
-    top:0;
-    right:0;
-    height:3px;
-    width:0;
-    background: #00CCFF;
-    transition:400ms ease all;
-  }
-  .dugme2:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .dugme2:hover:before,.dugme2:hover:after{
     width:100%;
     transition:800ms ease all;
   }
