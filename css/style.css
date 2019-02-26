@@ -18,6 +18,10 @@ body {
     display: none;
 }
 
+.fixed-action-btn ul{
+    bottom: 40px;
+}
+
 /*Za dugmice za pocetnu*/
   button{
     background:#1C3144;
