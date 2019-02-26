@@ -24,16 +24,17 @@
                 <h2>Naziv tima:</h2>
                 <input id="tim" name="naziv-tima" type="text" class="form-control aaa">
                 <h2>Kako ste saznali za Tech Challenge?</h2>
-                <input id="saznali" name="kako-ste-saznali" type="text" class="form-control aaa">
+                <textarea id="aaa" name="kako-ste-saznali" class="form-control aaa" rows="3"></textarea>
                 <h2>Da li ste učestvovali na sličnim takmičenjima? Ukoliko jeste, navedite na kojim i ukratko opišite
                     iskustvo.</h2>
-                <input id="iskustvo" name="iskustvo" type="text" class="form-control aaa">
+                <textarea id="aaa" name="iskustvo" class="form-control" rows="3"></textarea>
                 <h2>Zašto se prijavljujete za Tech Challenge? Iznesite svoju motivaciju, očekivanja i zašto baš vaš tim
                     treba da odaberemo. </h2>
-                <input id="motivacija" name="zasto-ste-se-prijavili" type="text" class="form-control aaa">
+                <textarea id="aaa" name="zasto-ste-se-prijavili" class="form-control aaa" rows="4"></textarea>
                 <h2>Koja je mana vašeg tima?</h2>
-                <input id="prednostimane" name="prednost-mana" type="text" class="form-control aaa">
-                <h2>CV-jeve vašeg tima ubacite na drive (google drive, onedrive i sl.) i unesite link tog drive-a u naredno polje.</h2>
+                <textarea id="aaa" name="mana" class="form-control aaa" rows="3"></textarea>
+                <h2>CV-jeve vašeg tima ubacite na drive (google drive, onedrive i sl.) i unesite link tog drive-a u
+                    naredno polje.</h2>
                 <input name="link-za-cv" type="text" class="form-control aaa">
             </div>
         </div><br><br>
@@ -102,7 +103,8 @@
             </div>
         </div><br><br>
 
-        <h3>Vaš e-mail biće sačuvan u bazi podataka radi lakše komunikacije i obaveštavanja o sličnim događajima u našoj organizaciji.</h3>
+        <h3>Svi članovi tima prihvataju da se njihovi podaci čuvaju u internoj bazi projekta <br> i da postoji
+            mogućnost da se oni proslede kompaniji "Saga", koja je ovogodišnji partner projekta.</h3>
         <button id="dugme" type="submit" class="form-control submit" onclick="prijava();">POTVRDI</button>
         <h1 id="potvrda"></h1>
         <br><br>
@@ -147,7 +149,7 @@
                     type: 'success',
                     confirmButtonText: 'Ok'
                 })
-                
+
             } else {
                 event.preventDefault();
                 Swal.fire({
