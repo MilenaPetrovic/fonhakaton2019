@@ -103,15 +103,9 @@
     font-size: 15px;
 }
 
-@media screen and (max-width:800px){
-    .box.three .naslov h2, .box.eleven .naslov h2{
-        margin-top: 15%;
-        font-size: 2rem;
-    }
-}
-
 @media screen and (max-width:500px){
     .box.three .naslov h2, .box.eleven .naslov h2{
+        margin-top: -50%;
         font-size: 1.5rem;
     }
 
@@ -153,7 +147,6 @@
 
 @media (min-width: 1400px){
     .box.three .naslov h2, .box.eleven .naslov h2{
-        margin-top: 15%;
         font-size: 3.5rem;
     }
 
@@ -181,11 +174,5 @@
 
     .testemonials .card .content .details h2 span a:hover{
         font-size: 22px;
-    }
-}
-
-@media (min-height: 1000px){
-    .box.three .naslov h2, .box.eleven .naslov h2{
-        margin-top: 30%;
     }
 }
